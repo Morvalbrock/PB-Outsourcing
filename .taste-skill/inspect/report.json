@@ -1,0 +1,2601 @@
+{
+ "url": "http://localhost:3000",
+ "at": "2026-10-19T16:21:41.980Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.45,
+    0.91,
+    0.63,
+    0.36,
+    0.84,
+    0.73,
+    0.48,
+    0.71,
+    0.79,
+    0.59,
+    0.98,
+    0.99
+   ],
+   "motion": {
+    "elements": 31,
+    "css": 31,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 10042,
+     "screens": 11.2,
+     "words": 1164,
+     "img": 18,
+     "video": 1,
+     "canvas": 0,
+     "svg": 34,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 19,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1600607687920-4e2a09cf159d?auto=format&fit",
+      "photo-1600210492486-724fe5c67fb0?auto=format&fit",
+      "photo-1600607687920-4e2a09cf159d?auto=format&fit",
+      "photo-1600585154340-be6161a56a0c?auto=format&fit",
+      "photo-1600596542815-ffad4c1539a9?auto=format&fit",
+      "photo-1600607687939-ce8a6c25118c?auto=format&fit",
+      "photo-1600566752355-35792bedcfea?auto=format&fit",
+      "photo-1600566753190-17f0baa2a6c3?auto=format&fit"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Every Property Deserves Its Best Picture.",
+     "words": 6,
+     "chars": 41,
+     "lines": 2,
+     "size": 68,
+     "vw": 4.7,
+     "font": "Manrope",
+     "weight": 700,
+     "tracking": -0.035,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.72,
+     "top": 124,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Every Property Deserves Its Best Picture.",
+     "words": 6,
+     "lines": 2,
+     "size": 68,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Every Property Deserves Its Best Picture.",
+      "words": 6,
+      "chars": 41,
+      "lines": 2,
+      "size": 68,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.72,
+      "top": 124,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Your Creative Editing Partner.",
+      "words": 4,
+      "chars": 30,
+      "lines": 1,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 974,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Complete Visual Solutions for Real Estate.",
+      "words": 6,
+      "chars": 42,
+      "lines": 2,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 1839,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "See the Difference.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 3739,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Visual Quality You Can See.",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 4501,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Built Around Your Workflow.",
+      "words": 4,
+      "chars": 27,
+      "lines": 1,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 6293,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From Raw Images to Ready-to-Use Visuals.",
+      "words": 6,
+      "chars": 40,
+      "lines": 2,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 6930,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quality That Supports Your Business.",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 7471,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Frequently Asked Questions",
+      "words": 3,
+      "chars": 26,
+      "lines": 2,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 8168,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ready to Make Every Property Stand Out?",
+      "words": 7,
+      "chars": 39,
+      "lines": 1,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 9148,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Let's build a reliable visual editing pipeline for your property business.",
+      "words": 11,
+      "chars": 74,
+      "lines": 2,
+      "size": 28,
+      "vw": 1.9,
+      "font": "DM Sans",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.65,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 9436,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.78,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.22,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      17,
+      18,
+      20,
+      28,
+      42,
+      68
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.75,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.5
+     },
+     "measureChars": 81,
+     "max": {
+      "size": 68,
+      "vw": 4.7,
+      "font": "Manrope",
+      "text": "Every Property Deserves"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f6f7f5",
+     "bodyBgHsl": {
+      "h": 90,
+      "s": 0.11,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ebedea",
+       "top": 878,
+       "hsl": {
+        "h": 100,
+        "s": 0.08,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#14251f",
+       "top": 3479,
+       "hsl": {
+        "h": 159,
+        "s": 0.3,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#f0f2ef",
+       "top": 7367,
+       "hsl": {
+        "h": 100,
+        "s": 0.1,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#0f1d18",
+       "top": 9364,
+       "hsl": {
+        "h": 159,
+        "s": 0.32,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#3c443d",
+       "share": 0.51
+      },
+      {
+       "color": "#14251f",
+       "share": 0.26
+      },
+      {
+       "color": "#e6ede6",
+       "share": 0.07
+      },
+      {
+       "color": "#a4b2a6",
+       "share": 0.06
+      },
+      {
+       "color": "#315c48",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#ebedea",
+      "hsl": {
+       "h": 100,
+       "s": 0.08,
+       "l": 0.92
+      },
+      "fg": "#14251f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 17,
+     "inHero": 4,
+     "radius": "pill",
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "+91 99443 10379",
+      "Get a Free Quote",
+      "Get a Free Quote",
+      "Explore Our Work"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 20,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 19,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.22
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 84,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 10042,
+    "margins": {
+     "left": 80,
+     "right": 80
+    },
+    "sections": [
+     {
+      "sel": "section.hero-section.container",
+      "tag": "section",
+      "top": 84,
+      "height": 794,
+      "words": 62,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Every Property Deserves",
+       "size": 68,
+       "tag": "h1"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 100,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.trust-strip-section",
+      "tag": "section",
+      "top": 878,
+      "height": 853,
+      "words": 115,
+      "media": 1,
+      "middle": 56,
+      "heading": {
+       "text": "Your Creative Editing Partner.",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 86,
+      "textLeft": 80,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.services-overview-section.container",
+      "tag": "section",
+      "top": 1731,
+      "height": 1747,
+      "words": 191,
+      "media": 7,
+      "middle": 0,
+      "heading": {
+       "text": "Complete Visual Solutions",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 92,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#comparison.transformation-section",
+      "tag": "section",
+      "top": 3479,
+      "height": 906,
+      "words": 86,
+      "media": 2,
+      "middle": 73,
+      "heading": {
+       "text": "See the Difference.",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 110,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#portfolio.featured-portfolio-section.container",
+      "tag": "section",
+      "top": 4385,
+      "height": 1804,
+      "words": 178,
+      "media": 8,
+      "middle": 0,
+      "heading": {
+       "text": "Visual Quality You Can See.",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 87,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.why-us-section",
+      "tag": "section",
+      "top": 6189,
+      "height": 634,
+      "words": 116,
+      "media": 0,
+      "middle": 66,
+      "heading": {
+       "text": "Built Around Your Workflow.",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 104,
+      "textLeft": 80,
+      "textRight": 104,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#process.process-timeline-section.container",
+      "tag": "section",
+      "top": 6822,
+      "height": 544,
+      "words": 101,
+      "media": 0,
+      "middle": 30,
+      "heading": {
+       "text": "From Raw Images",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 107,
+      "textLeft": 80,
+      "textRight": 107,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.testimonials-section",
+      "tag": "section",
+      "top": 7367,
+      "height": 693,
+      "words": 143,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quality That Supports Your Business.",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 92,
+      "textLeft": 80,
+      "textRight": 92,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq-section.container",
+      "tag": "section",
+      "top": 8060,
+      "height": 992,
+      "words": 146,
+      "media": 0,
+      "middle": 75,
+      "heading": {
+       "text": "Frequently Asked Questions",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 115,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.final-cta-section",
+      "tag": "section",
+      "top": 9052,
+      "height": 312,
+      "words": 34,
+      "media": 0,
+      "middle": 262,
+      "heading": {
+       "text": "Ready to Make Every Property Stand Out?",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 141,
+      "textLeft": 80,
+      "textRight": 141,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 9364,
+      "height": 679,
+      "words": 129,
+      "media": 0,
+      "middle": 27,
+      "heading": {
+       "text": "Let's build a reliable visual editing pipeline for",
+       "size": 28,
+       "tag": "p"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Every Property Deserves Its Best Picture.",
+      "size": 68,
+      "top": 124,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 80,
+      "n": 34
+     },
+     {
+      "x": 840,
+      "n": 16
+     },
+     {
+      "x": 515,
+      "n": 11
+     },
+     {
+      "x": 949,
+      "n": 9
+     },
+     {
+      "x": 701,
+      "n": 3
+     },
+     {
+      "x": 736,
+      "n": 3
+     },
+     {
+      "x": 408,
+      "n": 2
+     },
+     {
+      "x": 687,
+      "n": 2
+     },
+     {
+      "x": 1064,
+      "n": 2
+     },
+     {
+      "x": 108,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 83,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.1,
+    "voidBox": {
+     "x": 0,
+     "y": 720,
+     "w": 720,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.46,
+    0.97,
+    0.68,
+    0.67,
+    0.63,
+    0.84,
+    0.74,
+    0.65,
+    0.9,
+    0.57,
+    0.84,
+    0.77
+   ],
+   "motion": {
+    "elements": 31,
+    "css": 31,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 13853,
+     "screens": 13.5,
+     "words": 1155,
+     "img": 18,
+     "video": 1,
+     "canvas": 0,
+     "svg": 34,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 19,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1600607687920-4e2a09cf159d?auto=format&fit",
+      "photo-1600210492486-724fe5c67fb0?auto=format&fit",
+      "photo-1600607687920-4e2a09cf159d?auto=format&fit",
+      "photo-1600585154340-be6161a56a0c?auto=format&fit",
+      "photo-1600596542815-ffad4c1539a9?auto=format&fit",
+      "photo-1600607687939-ce8a6c25118c?auto=format&fit",
+      "photo-1600566752355-35792bedcfea?auto=format&fit",
+      "photo-1600566753190-17f0baa2a6c3?auto=format&fit"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Every Property Deserves Its Best Picture.",
+     "words": 6,
+     "chars": 41,
+     "lines": 2,
+     "size": 36.9,
+     "vw": 4.8,
+     "font": "Manrope",
+     "weight": 700,
+     "tracking": -0.035,
+     "leading": 1.08,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 116,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Every Property Deserves Its Best Picture.",
+     "words": 6,
+     "lines": 2,
+     "size": 36.9,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Every Property Deserves Its Best Picture.",
+      "words": 6,
+      "chars": 41,
+      "lines": 2,
+      "size": 36.9,
+      "vw": 4.8,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 116,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Your Creative Editing Partner.",
+      "words": 4,
+      "chars": 30,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1180,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Complete Visual Solutions for Real Estate.",
+      "words": 6,
+      "chars": 42,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 2494,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "See the Difference.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4762,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Visual Quality You Can See.",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 6131,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Built Around Your Workflow.",
+      "words": 4,
+      "chars": 27,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 8324,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From Raw Images to Ready-to-Use Visuals.",
+      "words": 6,
+      "chars": 40,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 9237,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quality That Supports Your Business.",
+      "words": 5,
+      "chars": 36,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.65,
+      "top": 10037,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Frequently Asked Questions",
+      "words": 3,
+      "chars": 26,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 11149,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ready to Make Every Property Stand Out?",
+      "words": 7,
+      "chars": 39,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 12491,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.78,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.22,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      17,
+      18,
+      20,
+      30,
+      37
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.75,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.5
+     },
+     "measureChars": 82,
+     "max": {
+      "size": 36.9,
+      "vw": 4.8,
+      "font": "Manrope",
+      "text": "Every Property Deserves"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f6f7f5",
+     "bodyBgHsl": {
+      "h": 90,
+      "s": 0.11,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ebedea",
+       "top": 541,
+       "hsl": {
+        "h": 100,
+        "s": 0.08,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1358,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#14251f",
+       "top": 4658,
+       "hsl": {
+        "h": 159,
+        "s": 0.3,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#1b3028",
+       "top": 5246,
+       "hsl": {
+        "h": 157,
+        "s": 0.28,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#f0f2ef",
+       "top": 9933,
+       "hsl": {
+        "h": 100,
+        "s": 0.1,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#0f1d18",
+       "top": 12848,
+       "hsl": {
+        "h": 159,
+        "s": 0.32,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#3c443d",
+       "share": 0.51
+      },
+      {
+       "color": "#14251f",
+       "share": 0.26
+      },
+      {
+       "color": "#e6ede6",
+       "share": 0.07
+      },
+      {
+       "color": "#a4b2a6",
+       "share": 0.06
+      },
+      {
+       "color": "#315c48",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#c5f078",
+      "hsl": {
+       "h": 82,
+       "s": 0.8,
+       "l": 0.71
+      },
+      "fg": "#14251f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 15,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get a Free Quote",
+      "Get a Free Quote",
+      "Explore Our Work"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 21,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 19,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.4
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 84,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 13853,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.hero-section.container",
+      "tag": "section",
+      "top": 84,
+      "height": 1000,
+      "words": 62,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Every Property Deserves",
+       "size": 37,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.trust-strip-section",
+      "tag": "section",
+      "top": 1084,
+      "height": 1302,
+      "words": 115,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your Creative Editing Partner.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.section-header-block",
+      "tag": "div",
+      "top": 2494,
+      "height": 173,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "for Real Estate.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 123,
+      "textLeft": 24,
+      "textRight": 123,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.services-bento-grid",
+      "tag": "div",
+      "top": 2715,
+      "height": 1836,
+      "words": 162,
+      "media": 7,
+      "middle": 24,
+      "heading": {
+       "text": "Colour Correction",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#comparison.transformation-section",
+      "tag": "section",
+      "top": 4658,
+      "height": 1364,
+      "words": 86,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "See the Difference.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.section-header-block",
+      "tag": "div",
+      "top": 6131,
+      "height": 139,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 93,
+      "textLeft": 24,
+      "textRight": 93,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.portfolio-showcase",
+      "tag": "div",
+      "top": 6317,
+      "height": 1795,
+      "words": 157,
+      "media": 8,
+      "middle": 3,
+      "heading": {
+       "text": "Panoramic Penthouse Living Room",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.why-us-section",
+      "tag": "section",
+      "top": 8220,
+      "height": 909,
+      "words": 116,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Built Around Your Workflow.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 50,
+      "textLeft": 24,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#process.process-timeline-section.container",
+      "tag": "section",
+      "top": 9129,
+      "height": 804,
+      "words": 101,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From Raw Images",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 25,
+      "textLeft": 24,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.testimonials-section",
+      "tag": "section",
+      "top": 9933,
+      "height": 1108,
+      "words": 143,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quality That Supports Your Business.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 43,
+      "textLeft": 24,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq-section.container",
+      "tag": "section",
+      "top": 11041,
+      "height": 1354,
+      "words": 146,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Frequently Asked Questions",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 82,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.final-cta-section",
+      "tag": "section",
+      "top": 12395,
+      "height": 453,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Ready to Make Every Property Stand Out?",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 186,
+      "textLeft": 24,
+      "textRight": 186,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 12848,
+      "height": 1004,
+      "words": 129,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 30,
+      "textLeft": 24,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Every Property Deserves Its Best Picture.",
+      "size": 37,
+      "top": 116,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 63
+     },
+     {
+      "x": 396,
+      "n": 18
+     },
+     {
+      "x": 48,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 83,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.48,
+    0.84,
+    0.9,
+    0.61,
+    0.69,
+    0.67,
+    0.71,
+    0.77,
+    0.82,
+    0.56,
+    0.76,
+    0.77
+   ],
+   "motion": {
+    "elements": 31,
+    "css": 31,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 19119,
+     "screens": 22.7,
+     "words": 1151,
+     "img": 18,
+     "video": 1,
+     "canvas": 0,
+     "svg": 34,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 19,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1600607687920-4e2a09cf159d?auto=format&fit",
+      "photo-1600210492486-724fe5c67fb0?auto=format&fit",
+      "photo-1600607687920-4e2a09cf159d?auto=format&fit",
+      "photo-1600585154340-be6161a56a0c?auto=format&fit",
+      "photo-1600596542815-ffad4c1539a9?auto=format&fit",
+      "photo-1600607687939-ce8a6c25118c?auto=format&fit",
+      "photo-1600566752355-35792bedcfea?auto=format&fit",
+      "photo-1600566753190-17f0baa2a6c3?auto=format&fit"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Every Property Deserves Its Best Picture.",
+     "words": 6,
+     "chars": 41,
+     "lines": 2,
+     "size": 26,
+     "vw": 6.7,
+     "font": "Manrope",
+     "weight": 700,
+     "tracking": -0.035,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 116,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Every Property Deserves Its Best Picture.",
+     "words": 6,
+     "lines": 2,
+     "size": 26,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Every Property Deserves Its Best Picture.",
+      "words": 6,
+      "chars": 41,
+      "lines": 2,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 116,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Your Creative Editing Partner.",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1315,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Complete Visual Solutions for Real Estate.",
+      "words": 6,
+      "chars": 42,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 2611,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "See the Difference.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6304,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Visual Quality You Can See.",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7545,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Built Around Your Workflow.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 11634,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From Raw Images to Ready-to-Use Visuals.",
+      "words": 6,
+      "chars": 40,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 12753,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quality That Supports Your Business.",
+      "words": 5,
+      "chars": 36,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 13926,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Frequently Asked Questions",
+      "words": 3,
+      "chars": 26,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 15331,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ready to Make Every Property Stand Out?",
+      "words": 7,
+      "chars": 39,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 700,
+      "tracking": -0.035,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 17049,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.78,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.22,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      17,
+      18,
+      20,
+      26,
+      30
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.75,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.5
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "text": "Your Creative Editing Partner."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f6f7f5",
+     "bodyBgHsl": {
+      "h": 90,
+      "s": 0.11,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ebedea",
+       "top": 756,
+       "hsl": {
+        "h": 100,
+        "s": 0.08,
+        "l": 0.92
+       }
+      },
+      {
+       "color": "#14251f",
+       "top": 6200,
+       "hsl": {
+        "h": 159,
+        "s": 0.3,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#1b3028",
+       "top": 6950,
+       "hsl": {
+        "h": 157,
+        "s": 0.28,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#f0f2ef",
+       "top": 13822,
+       "hsl": {
+        "h": 100,
+        "s": 0.1,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 15808,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0f1d18",
+       "top": 17469,
+       "hsl": {
+        "h": 159,
+        "s": 0.32,
+        "l": 0.09
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#3c443d",
+       "share": 0.51
+      },
+      {
+       "color": "#14251f",
+       "share": 0.25
+      },
+      {
+       "color": "#e6ede6",
+       "share": 0.07
+      },
+      {
+       "color": "#a4b2a6",
+       "share": 0.06
+      },
+      {
+       "color": "#315c48",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#c5f078",
+      "hsl": {
+       "h": 82,
+       "s": 0.8,
+       "l": 0.71
+      },
+      "fg": "#14251f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 15,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get a Free Quote",
+      "Explore Our Work"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 25,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 19,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "video",
+      "ratio": 0.1
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 84,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 19119,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.hero-section.container",
+      "tag": "section",
+      "top": 84,
+      "height": 1135,
+      "words": 62,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Every Property Deserves",
+       "size": 26,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.trust-strip-section",
+      "tag": "section",
+      "top": 1219,
+      "height": 1284,
+      "words": 115,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your Creative Editing Partner.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.section-header-block",
+      "tag": "div",
+      "top": 2611,
+      "height": 229,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "for Real Estate.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 46,
+      "textLeft": 16,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.services-bento-grid",
+      "tag": "div",
+      "top": 2888,
+      "height": 3203,
+      "words": 162,
+      "media": 7,
+      "middle": 0,
+      "heading": {
+       "text": "Colour Correction",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#comparison.transformation-section",
+      "tag": "section",
+      "top": 6200,
+      "height": 1238,
+      "words": 86,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "See the Difference.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.section-header-block",
+      "tag": "div",
+      "top": 7545,
+      "height": 201,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 27,
+      "textLeft": 16,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.portfolio-showcase",
+      "tag": "div",
+      "top": 7794,
+      "height": 3628,
+      "words": 157,
+      "media": 8,
+      "middle": 0,
+      "heading": {
+       "text": "Panoramic Penthouse Living Room",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.why-us-section",
+      "tag": "section",
+      "top": 11530,
+      "height": 1115,
+      "words": 116,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Built Around Your Workflow.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 28,
+      "textLeft": 16,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#process.process-timeline-section.container",
+      "tag": "section",
+      "top": 12645,
+      "height": 1176,
+      "words": 101,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "From Raw Images",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 26,
+      "textLeft": 16,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.testimonials-section",
+      "tag": "section",
+      "top": 13822,
+      "height": 1402,
+      "words": 143,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quality That Supports Your Business.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 36,
+      "textLeft": 16,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#faq.faq-section.container",
+      "tag": "section",
+      "top": 15223,
+      "height": 1730,
+      "words": 146,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Frequently Asked Questions",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.final-cta-section",
+      "tag": "section",
+      "top": 16953,
+      "height": 516,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Ready to Make Every Property Stand Out?",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 52,
+      "textLeft": 16,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 17469,
+      "height": 1650,
+      "words": 129,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 26,
+      "textLeft": 16,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Every Property Deserves Its Best Picture.",
+      "size": 26,
+      "top": 116,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 81
+     },
+     {
+      "x": 40,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 83,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\ADMIN\\Downloads\\pb-outsourcing-nextjs-base\\.taste-skill\\inspect\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\ADMIN\\Downloads\\pb-outsourcing-nextjs-base\\.taste-skill\\inspect\\desktop-page-01.jpg",
+    "C:\\Users\\ADMIN\\Downloads\\pb-outsourcing-nextjs-base\\.taste-skill\\inspect\\desktop-page-02.jpg",
+    "C:\\Users\\ADMIN\\Downloads\\pb-outsourcing-nextjs-base\\.taste-skill\\inspect\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\ADMIN\\Downloads\\pb-outsourcing-nextjs-base\\.taste-skill\\inspect\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\ADMIN\\Downloads\\pb-outsourcing-nextjs-base\\.taste-skill\\inspect\\tablet-page-01.jpg",
+    "C:\\Users\\ADMIN\\Downloads\\pb-outsourcing-nextjs-base\\.taste-skill\\inspect\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\ADMIN\\Downloads\\pb-outsourcing-nextjs-base\\.taste-skill\\inspect\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\ADMIN\\Downloads\\pb-outsourcing-nextjs-base\\.taste-skill\\inspect\\mobile-page-01.jpg",
+    "C:\\Users\\ADMIN\\Downloads\\pb-outsourcing-nextjs-base\\.taste-skill\\inspect\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
