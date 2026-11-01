@@ -33,8 +33,7 @@ export default function HomePage() {
         <div className="hero-split-grid">
           <div className="hero-content-column">
             <p className="hero-support-copy">
-              Professional real estate photo editing, virtual staging, floor plans, and video
-              solutions designed to make property listings stand out across online marketplaces and editorial features.
+              ClearPixelImages delivers high-end photo and video editing: Single Image, HDR blending, Day to Night, Twilight conversion, Virtual Staging, Video walkthroughs, Clipping Path, Item Removal, Wedding photography, and Aerial Drone solutions.
             </p>
 
             <div className="hero-cta-group">
@@ -173,14 +172,27 @@ export default function HomePage() {
               <div className="service-bento-body">
                 <h3 className="service-bento-title">{service.title}</h3>
                 <p className="service-bento-copy">{service.shortDescription}</p>
-                <Link
-                  href={`/services#${service.id}`}
-                  className="service-explore-action"
-                  aria-label={`Explore ${service.title}`}
-                >
-                  <span>Explore Service</span>
-                  <ArrowRight size={15} />
-                </Link>
+                <div style={{ display: "flex", gap: "14px", alignItems: "center", flexWrap: "wrap", marginTop: "auto" }}>
+                  <Link
+                    href={`/services#${service.id}`}
+                    className="service-explore-action"
+                    aria-label={`Explore ${service.title}`}
+                  >
+                    <span>Explore Service</span>
+                    <ArrowRight size={15} />
+                  </Link>
+                  {service.id === "hdr-photo-editing" && (
+                    <Link
+                      href="/HDR"
+                      className="service-explore-action"
+                      style={{ color: "var(--green)", fontWeight: 700 }}
+                      aria-label="View all 6 real HDR samples"
+                    >
+                      <span>View 6 Real Samples</span>
+                      <ArrowRight size={15} />
+                    </Link>
+                  )}
+                </div>
               </div>
             </article>
           ))}
@@ -212,8 +224,11 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="transformation-cta-wrap">
-              <Link className="button button-accent" href="/contact">
+            <div className="transformation-cta-wrap" style={{ display: "flex", gap: "12px", flexWrap: "wrap", marginTop: "28px" }}>
+              <Link className="button button-accent" href="/HDR">
+                View All 6 Real HDR Samples <ArrowRight size={16} />
+              </Link>
+              <Link className="button button-secondary" href="/contact">
                 Request a Custom Transformation <ArrowRight size={16} />
               </Link>
             </div>
@@ -240,14 +255,14 @@ export default function HomePage() {
         <PortfolioGallery />
       </section>
 
-      {/* SECTION 7: WHY CHOOSE PB OUTSOURCING? */}
+      {/* SECTION 7: WHY CHOOSE CLEARPIXELIMAGES? */}
       <section className="why-us-section">
         <div className="container why-us-split-layout">
           <div className="why-us-lead-box">
             <h2 className="section-title">Built Around Your Workflow.</h2>
             <p>
-              Professional editing support designed to fit the way real estate photography
-              businesses work. We prioritize consistent deliverables, dependable communication, and flexible turnaround schedules.
+              Professional post-production support designed to fit the way modern photographers and media studios work.
+              ClearPixelImages prioritizes consistent deliverables, dependable communication, and flexible turnaround schedules.
             </p>
             <Link href="/contact" className="button button-primary">
               Discuss Your Workflow <ArrowRight size={16} />

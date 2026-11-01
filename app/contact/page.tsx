@@ -2,9 +2,9 @@ import { Phone, MessageSquare, CheckCircle2, ShieldCheck } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
 
 export const metadata = {
-  title: "Request a Quote & Contact | PB Outsourcing",
+  title: "Request a Quote & Contact | ClearPixelImages",
   description:
-    "Get in touch with PB Outsourcing for real estate photo editing, virtual staging, twilight conversions, floor plans, and video editing. Call +91 99443 10379 or message on WhatsApp.",
+    "Get in touch with ClearPixelImages for Single Image, HDR, Day to Night, Twilight, Virtual Staging, Video Editing, Clipping Path, Item Removal, Wedding Image Editing, and Aerial Drone enhancements. Call +91 99443 10379 or message on WhatsApp.",
 };
 
 export default function ContactPage() {

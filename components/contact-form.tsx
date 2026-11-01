@@ -45,7 +45,7 @@ export function ContactForm() {
           </div>
           <h3>UI Prototype Demonstration</h3>
           <p className="feedback-lead">
-            Thank you for exploring the PB Outsourcing quote workflow!
+            Thank you for exploring the ClearPixelImages quote workflow!
           </p>
           <div className="feedback-disclaimer-box">
             <p>
@@ -53,7 +53,7 @@ export function ContactForm() {
             </p>
           </div>
           <p className="feedback-direct-prompt">
-            To discuss a live property visual project or request an actual quote, please connect with PB Outsourcing directly:
+            To discuss a live visual editing project or request an actual quote, please connect with ClearPixelImages directly:
           </p>
           <div className="feedback-quick-actions">
             <a href="tel:+919944310379" className="button button-primary">
@@ -144,16 +144,18 @@ export function ContactForm() {
               <label htmlFor="serviceCategory">Service Required *</label>
               <select id="serviceCategory" name="serviceCategory" required defaultValue="">
                 <option value="" disabled>Select the primary visual service</option>
-                <option value="colour-correction">Colour Correction</option>
-                <option value="hdr-photo-editing">HDR Photo Editing</option>
-                <option value="photo-retouching">Photo Retouching</option>
-                <option value="day-to-night">Day-to-Night Conversion</option>
-                <option value="virtual-staging">Virtual Home Staging</option>
-                <option value="2d-floor-plans">2D Floor Plans</option>
-                <option value="3d-floor-plans">3D Floor Plans</option>
-                <option value="video-editing">Real Estate Video Editing</option>
+                <option value="single-image">1. Single Image Editing</option>
+                <option value="hdr-photo-editing">2. HDR Photo Editing</option>
+                <option value="day-to-night">3. Day-to-Night Conversion</option>
+                <option value="twilight">4. Twilight / Dusk Enhancement</option>
+                <option value="virtual-staging">5. Virtual Staging</option>
+                <option value="video-editing">6. Video Editing</option>
+                <option value="clipping-path">7. Clipping Path (Cutout)</option>
+                <option value="item-removal">8. Item & Object Removal (Declutter)</option>
+                <option value="wedding-image-editing">9. Wedding Image Editing</option>
+                <option value="aerial-drone">10. Aerial & Drone Photo Editing</option>
                 <option value="multiple-services">Multiple Services (Combined Package)</option>
-                <option value="other">Other Visual Service</option>
+                <option value="other">Other Custom Visual Service</option>
               </select>
             </div>
 
@@ -223,7 +225,7 @@ export function ContactForm() {
             <label className="checkbox-label">
               <input type="checkbox" required />
               <span>
-                I agree that PB Outsourcing may use these submitted details to prepare and send a service quote.
+                I agree that ClearPixelImages may use these submitted details to prepare and send a service quote.
               </span>
             </label>
           </div>

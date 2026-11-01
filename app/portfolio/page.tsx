@@ -4,9 +4,9 @@ import { PortfolioGallery } from "@/components/portfolio-gallery";
 import { BeforeAfterSlider } from "@/components/before-after-slider";
 
 export const metadata = {
-  title: "Portfolio & Visual Transformations | PB Outsourcing",
+  title: "Portfolio & Visual Transformations | ClearPixelImages",
   description:
-    "Explore real estate photo editing, HDR exposure balancing, day-to-night twilight transformations, virtual staging, 3D floor plans, and property video walkthroughs.",
+    "Explore ClearPixelImages visual transformations: Single Image, HDR, Day to Night, Twilight, Virtual Staging, Video Walkthroughs, Clipping Path, Item Removal, Wedding Image Editing, and Aerial Drone photography.",
 };
 
 export default function PortfolioPage() {
@@ -18,7 +18,7 @@ export default function PortfolioPage() {
           Explore Our Visual Transformations.
         </h1>
         <p className="page-hero-subtitle">
-          Browse real estate image editing styles and property visualisation examples.
+          Browse ClearPixelImages portfolio across all 10 specialized editing disciplines.
           Filter by service category, view before-and-after comparisons, and inspect high-resolution details in the interactive lightbox.
         </p>
       </section>

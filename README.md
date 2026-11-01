@@ -1,6 +1,16 @@
-# PB Outsourcing — Next.js starter
+# ClearPixelImages — Professional Photo & Video Editing Services
 
-A starter website for PB Outsourcing, a real estate photo editing and visual media services business.
+A starter website for ClearPixelImages, showcasing our 10 core creative visual editing disciplines:
+1. Single Image Editing
+2. HDR Photo Editing
+3. Day-to-Night Conversion
+4. Twilight / Dusk Enhancement
+5. Virtual Staging
+6. Video Editing
+7. Clipping Path & Cutouts
+8. Item & Object Removal (Declutter)
+9. Wedding Image Editing
+10. Aerial & Drone Photo Editing
 
 ## Included
 

@@ -3,9 +3,9 @@ import Link from "next/link";
 import { ArrowRight, CheckCircle2, ShieldCheck, Clock, Users, Sparkles, Phone } from "lucide-react";
 
 export const metadata = {
-  title: "About Us | PB Outsourcing — Real Estate Visual Media Partner",
+  title: "About Us | ClearPixelImages — Professional Visual Post-Production Partner",
   description:
-    "Learn about PB Outsourcing: our approach to real estate photo retouching, exposure balancing, quality control, and dedicated client collaboration.",
+    "Learn about ClearPixelImages: our approach to real estate, wedding, clipping path, aerial, and creative photo & video post-production.",
 };
 
 const aboutHeroImg =
@@ -19,11 +19,11 @@ export default function AboutPage() {
       {/* 1. ABOUT HERO */}
       <section className="page-hero-banner container">
         <h1 className="page-hero-title">
-          Your Partner in Property Visual Excellence.
+          Your Partner in Visual Post-Production Excellence.
         </h1>
         <p className="page-hero-subtitle">
-          PB Outsourcing supports real estate professionals with thoughtful photo editing
-          and visual media services tailored to the exacting demands of residential and commercial property marketing.
+          ClearPixelImages supports photographers, media agencies, studios, and businesses with thoughtful photo editing
+          and visual media services tailored to the exacting demands of residential, commercial, wedding, and e-commerce marketing.
         </p>
       </section>
 
@@ -32,7 +32,7 @@ export default function AboutPage() {
         <div className="about-intro-text">
           <h2 className="section-title">Dedicated to Visual Clarity and Spatial Authenticity.</h2>
           <p className="about-body-paragraph">
-            In competitive property markets, first impressions happen in seconds across online listings and editorial campaigns. PB Outsourcing was formed to solve a persistent bottleneck faced by real estate photographers, agencies, and developers: maintaining consistent, high-standard visual enhancement without sacrificing turnaround or shooting schedules.
+            First impressions happen in seconds across online listings, catalogs, and client galleries. ClearPixelImages was formed to solve a persistent bottleneck faced by photographers and creative agencies: maintaining consistent, high-standard visual enhancement without sacrificing turnaround or shooting schedules.
           </p>
           <p className="about-body-paragraph">
             Rather than relying on harsh automatic filters, our post-production process combines technical color science with aesthetic nuance. We respect each property&apos;s architectural intent, enhancing natural light, textures, and spatial flow so buyers see spaces at their genuine best.
@@ -180,7 +180,7 @@ export default function AboutPage() {
       <section className="about-collaboration-section">
         <div className="container">
           <div className="section-header-block text-center-block">
-            <h2 className="section-title">Why Property Professionals Choose PB Outsourcing.</h2>
+            <h2 className="section-title">Why Professionals Choose ClearPixelImages.</h2>
             <p className="section-subtitle centered">
               We treat post-production as a direct extension of your creative studio.
             </p>

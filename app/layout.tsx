@@ -4,10 +4,10 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "PB Outsourcing | Real Estate Photo Editing",
+  title: "ClearPixelImages | Professional Photo & Visual Editing Services",
   description:
-    "Real estate photo editing, HDR enhancement, day-to-night conversion, virtual staging, floor plans and property video editing.",
-  metadataBase: new URL("https://example.com"),
+    "ClearPixelImages provides premium visual editing: Single Image, HDR, Day to Night, Twilight, Virtual Staging, Video Editing, Clipping Path, Item Removal, Wedding Photo Editing, and Aerial Drone enhancements.",
+  metadataBase: new URL("https://clearpixelimages.com"),
 };
 
 export default function RootLayout({

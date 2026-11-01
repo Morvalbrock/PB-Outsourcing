@@ -8,6 +8,7 @@ import { useState } from "react";
 const links = [
   { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
+  { href: "/HDR", label: "HDR Photo Editing" },
   { href: "/portfolio", label: "Portfolio" },
   { href: "/about", label: "About Us" },
   { href: "/contact", label: "Contact" },
@@ -23,16 +24,16 @@ export function Header() {
         <Link
           className="brand-logo"
           href="/"
-          aria-label="PB Outsourcing homepage"
+          aria-label="ClearPixelImages homepage"
           onClick={() => setIsOpen(false)}
         >
           <span className="brand-mark">
-            <span className="brand-letters">PB</span>
+            <span className="brand-letters">CPI</span>
             <span className="brand-frame-line" aria-hidden="true" />
           </span>
           <span className="brand-text-group">
-            <span className="brand-name">PB OUTSOURCING</span>
-            <span className="brand-sub">REAL ESTATE VISUALS</span>
+            <span className="brand-name">CLEARPIXELIMAGES</span>
+            <span className="brand-sub">PHOTO & VIDEO EDITING</span>
           </span>
         </Link>
 

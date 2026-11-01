@@ -20,18 +20,18 @@ export function Footer() {
 
         <div className="footer-columns-grid">
           <div className="footer-brand-column">
-            <Link className="brand-logo footer-logo" href="/" aria-label="PB Outsourcing home">
+            <Link className="brand-logo footer-logo" href="/" aria-label="ClearPixelImages home">
               <span className="brand-mark footer-brand-mark">
-                <span className="brand-letters">PB</span>
+                <span className="brand-letters">CPI</span>
                 <span className="brand-frame-line" aria-hidden="true" />
               </span>
               <span className="brand-text-group">
-                <span className="brand-name text-light">PB OUTSOURCING</span>
-                <span className="brand-sub text-muted">REAL ESTATE VISUALS</span>
+                <span className="brand-name text-light">CLEARPIXELIMAGES</span>
+                <span className="brand-sub text-muted">PHOTO & VIDEO EDITING</span>
               </span>
             </Link>
             <p className="footer-about-copy">
-              Professional real estate photo editing and visual media solutions for property professionals, photographers, agencies, and developers.
+              Professional visual editing solutions: Single Image, HDR, Day-to-Night, Twilight, Virtual Staging, Video Editing, Clipping Path, Item Removal, Wedding Photo Editing, and Aerial Drone enhancements.
             </p>
             <div className="footer-direct-contact">
               <a href="tel:+919944310379" className="footer-contact-item">
@@ -54,7 +54,8 @@ export function Footer() {
             <span className="footer-column-heading">Navigation</span>
             <ul className="footer-link-list">
               <li><Link href="/">Home</Link></li>
-              <li><Link href="/services">Services</Link></li>
+              <li><Link href="/services">All Services (10)</Link></li>
+              <li><Link href="/HDR">HDR Showcase</Link></li>
               <li><Link href="/portfolio">Portfolio</Link></li>
               <li><Link href="/about">About Us</Link></li>
               <li><Link href="/contact">Request a Quote</Link></li>
@@ -62,22 +63,25 @@ export function Footer() {
           </div>
 
           <div className="footer-nav-column">
-            <span className="footer-column-heading">Visual Services</span>
+            <span className="footer-column-heading">Our Services</span>
             <ul className="footer-link-list">
-              <li><Link href="/services#colour-correction">Colour Correction</Link></li>
-              <li><Link href="/services#hdr-photo-editing">HDR Photo Editing</Link></li>
-              <li><Link href="/services#photo-retouching">Photo Retouching</Link></li>
-              <li><Link href="/services#day-to-night-conversion">Day-to-Night Conversion</Link></li>
-              <li><Link href="/services#virtual-home-staging">Virtual Home Staging</Link></li>
-              <li><Link href="/services#floor-plans">2D & 3D Floor Plans</Link></li>
-              <li><Link href="/services#real-estate-video-editing">Real Estate Video Editing</Link></li>
+              <li><Link href="/services#single-image">1. Single Image</Link></li>
+              <li><Link href="/HDR">2. HDR Photo Editing</Link></li>
+              <li><Link href="/services#day-to-night">3. Day to Night</Link></li>
+              <li><Link href="/services#twilight">4. Twilight / Dusk</Link></li>
+              <li><Link href="/services#virtual-staging">5. Virtual Staging</Link></li>
+              <li><Link href="/services#video-editing">6. Video Editing</Link></li>
+              <li><Link href="/services#clipping-path">7. Clipping Path</Link></li>
+              <li><Link href="/services#item-removal">8. Item & Object Removal</Link></li>
+              <li><Link href="/services#wedding-image-editing">9. Wedding Image Editing</Link></li>
+              <li><Link href="/services#aerial-drone">10. Aerial & Drone</Link></li>
             </ul>
           </div>
 
           <div className="footer-nav-column">
             <span className="footer-column-heading">Production Details</span>
             <p className="footer-detail-note">
-              Dedicated visual post-production supporting high-dynamic range interior photography, dusk conversions, 3D floor plan drafting, and cinematic property film mastering.
+              High-volume post-production studio delivering consistent color grading, sub-pixel bracket blending, hand-drawn vector clipping paths, and emotion-driven wedding retouching.
             </p>
             <div className="footer-support-hours">
               <span className="status-indicator-dot" />
@@ -87,13 +91,13 @@ export function Footer() {
         </div>
 
         <div className="footer-bottom-bar">
-          <p suppressHydrationWarning>© {new Date().getFullYear()} PB Outsourcing. All rights reserved.</p>
+          <p suppressHydrationWarning>© {new Date().getFullYear()} ClearPixelImages. All rights reserved.</p>
           <div className="footer-legal-links">
             <span className="legal-placeholder-link">Privacy Policy</span>
             <span className="legal-separator">·</span>
             <span className="legal-placeholder-link">Terms of Service</span>
             <span className="legal-separator">·</span>
-            <span>Real Estate Visual Outsourcing</span>
+            <span>ClearPixelImages Studio</span>
           </div>
         </div>
       </div>

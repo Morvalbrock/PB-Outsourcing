@@ -5,9 +5,9 @@ export type FAQItem = {
 
 export const faqItems: FAQItem[] = [
   {
-    question: "What services does PB Outsourcing provide?",
+    question: "What services does ClearPixelImages provide?",
     answer:
-      "PB Outsourcing provides end-to-end real estate visual media editing including Colour Correction, HDR Photo Editing, Photo Retouching & Object Removal, Day-to-Night (Twilight) Conversion, Virtual Home Staging, 2D & 3D Floor Plans, and Real Estate Video Editing.",
+      "ClearPixelImages provides comprehensive photo and video post-production across 10 specialized services: 1. Single Image Editing, 2. HDR Photo Editing, 3. Day-to-Night Conversion, 4. Twilight / Dusk Enhancement, 5. Virtual Staging, 6. Video Editing, 7. Clipping Path (Cutout), 8. Item & Object Removal, 9. Wedding Image Editing, and 10. Aerial & Drone Photo Editing.",
   },
   {
     question: "How can I request a quote?",
