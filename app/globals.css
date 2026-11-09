@@ -366,37 +366,30 @@ h1, h2, h3, h4 {
   }
 }
 
-/* SCROLL REVEAL */
-[data-reveal] {
+/* SCROLL REVEAL
+   Elements are visible by default. The client observer tags below-fold
+   elements with [data-reveal-pending] to hide them, then removes it as
+   they enter the viewport so they fade/slide back to visible. If JS fails
+   or is slow to mount, nothing ever hides — content stays readable. */
+
+[data-reveal-pending] {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 650ms var(--ease-out), transform 650ms var(--ease-out);
-  will-change: opacity, transform;
 }
 
-[data-reveal="in"] {
-  opacity: 1;
-  transform: none;
-}
-
-[data-reveal-stagger] > * {
+[data-reveal-stagger][data-reveal-pending] > * {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 600ms var(--ease-out), transform 600ms var(--ease-out);
-  will-change: opacity, transform;
-}
-
-[data-reveal-stagger][data-reveal="in"] > * {
-  opacity: 1;
-  transform: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  [data-reveal],
-  [data-reveal-stagger] > * {
-    opacity: 1 !important;
-    transform: none !important;
-    transition: none !important;
+  [data-reveal-pending],
+  [data-reveal-stagger][data-reveal-pending] > * {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
 

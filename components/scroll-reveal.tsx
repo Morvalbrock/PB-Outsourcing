@@ -4,8 +4,8 @@ import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 
 const STAGGER_STEP_MS = 90;
-const THRESHOLD = 0.15;
-const ROOT_MARGIN = "0px 0px -8% 0px";
+const THRESHOLD = 0.12;
+const ROOT_MARGIN = "0px 0px -6% 0px";
 
 function applyStagger(container: HTMLElement) {
   const step = Number(container.dataset.revealStep ?? STAGGER_STEP_MS);
@@ -16,6 +16,11 @@ function applyStagger(container: HTMLElement) {
   });
 }
 
+function isBelowFold(el: HTMLElement) {
+  const rect = el.getBoundingClientRect();
+  return rect.top >= window.innerHeight * 0.92;
+}
+
 export function ScrollReveal() {
   const pathname = usePathname();
 
@@ -23,12 +28,11 @@ export function ScrollReveal() {
     if (typeof window === "undefined") return;
 
     const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const targets = document.querySelectorAll<HTMLElement>("[data-reveal]:not([data-reveal='in'])");
+    if (prefersReduced) return;
 
-    if (prefersReduced) {
-      targets.forEach((el) => el.setAttribute("data-reveal", "in"));
-      return;
-    }
+    const targets = Array.from(
+      document.querySelectorAll<HTMLElement>("[data-reveal]")
+    );
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -38,14 +42,22 @@ export function ScrollReveal() {
           if (el.hasAttribute("data-reveal-stagger")) {
             applyStagger(el);
           }
-          el.setAttribute("data-reveal", "in");
+          el.removeAttribute("data-reveal-pending");
           observer.unobserve(el);
         }
       },
       { threshold: THRESHOLD, rootMargin: ROOT_MARGIN }
     );
 
-    targets.forEach((el) => observer.observe(el));
+    targets.forEach((el) => {
+      if (isBelowFold(el)) {
+        el.setAttribute("data-reveal-pending", "");
+        if (el.hasAttribute("data-reveal-stagger")) {
+          applyStagger(el);
+        }
+        observer.observe(el);
+      }
+    });
 
     return () => observer.disconnect();
   }, [pathname]);
