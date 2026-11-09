@@ -195,7 +195,7 @@ export default function HDRPage() {
       </section>
 
       {/* 5. CALL TO ACTION */}
-      <section className="final-cta-section">
+      <section className="final-cta-section" data-reveal>
         <div className="container final-cta-wrapper">
           <div className="final-cta-content">
             <h2 className="section-title text-light">

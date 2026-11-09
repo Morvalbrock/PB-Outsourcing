@@ -3,6 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { BootLoader } from "@/components/boot-loader";
+import { ScrollReveal } from "@/components/scroll-reveal";
 
 export const metadata: Metadata = {
   title: "ClearPixelImages | Professional Photo & Visual Editing Services",
@@ -18,6 +19,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body suppressHydrationWarning>
         <BootLoader />
+        <ScrollReveal />
         <Header />
         <main>{children}</main>
         <Footer />

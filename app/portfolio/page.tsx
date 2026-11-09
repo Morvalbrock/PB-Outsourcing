@@ -24,7 +24,7 @@ export default function PortfolioPage() {
       </section>
 
       {/* INTERACTIVE COMPARISON SPOTLIGHT */}
-      <section className="portfolio-transformation-spotlight container">
+      <section className="portfolio-transformation-spotlight container" data-reveal>
         <div className="spotlight-header">
           <h2 className="section-title">Interactive Before & After Demonstration</h2>
           <p className="section-lead-paragraph">
@@ -39,7 +39,7 @@ export default function PortfolioPage() {
       </section>
 
       {/* MAIN GALLERY SECTION */}
-      <section className="portfolio-gallery-section container">
+      <section className="portfolio-gallery-section container" data-reveal>
         <div className="gallery-header-row">
           <div>
             <h2 className="section-title">Project Gallery by Service Category</h2>
@@ -53,7 +53,7 @@ export default function PortfolioPage() {
       </section>
 
       {/* FINAL CALL TO ACTION */}
-      <section className="final-cta-section">
+      <section className="final-cta-section" data-reveal>
         <div className="container final-cta-wrapper">
           <div className="final-cta-content">
             <h2 className="section-title text-light">

@@ -88,7 +88,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 3: TRUST AND VALUE PROPOSITION */}
-      <section className="trust-strip-section">
+      <section className="trust-strip-section" data-reveal>
         <div className="container trust-split-layout">
           <div className="trust-narrative-copy">
             <h2 className="section-title">Your Creative Editing Partner.</h2>
@@ -140,7 +140,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 4: SERVICES OVERVIEW */}
-      <section className="services-overview-section container" id="services">
+      <section className="services-overview-section container" id="services" data-reveal>
         <div className="section-header-block">
           <div>
             <h2 className="section-title">
@@ -154,7 +154,7 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div className="services-bento-grid">
+        <div className="services-bento-grid" data-reveal data-reveal-stagger>
           {services.map((service, index) => (
             <article
               key={service.id}
@@ -200,7 +200,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 5: BEFORE-AND-AFTER TRANSFORMATION */}
-      <section className="transformation-section" id="comparison">
+      <section className="transformation-section" id="comparison" data-reveal>
         <div className="container transformation-grid">
           <div className="transformation-copy-column">
             <h2 className="section-title text-light">See the Difference.</h2>
@@ -241,7 +241,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 6: FEATURED PORTFOLIO */}
-      <section className="featured-portfolio-section container" id="portfolio">
+      <section className="featured-portfolio-section container" id="portfolio" data-reveal>
         <div className="section-header-block">
           <div>
             <h2 className="section-title">Visual Quality You Can See.</h2>
@@ -256,7 +256,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 7: WHY CHOOSE CLEARPIXELIMAGES? */}
-      <section className="why-us-section">
+      <section className="why-us-section" data-reveal>
         <div className="container why-us-split-layout">
           <div className="why-us-lead-box">
             <h2 className="section-title">Built Around Your Workflow.</h2>
@@ -302,7 +302,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 8: HOW IT WORKS */}
-      <section className="process-timeline-section container" id="process">
+      <section className="process-timeline-section container" id="process" data-reveal>
         <div className="section-header-block">
           <div>
             <h2 className="section-title">
@@ -315,7 +315,7 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div className="process-horizontal-grid">
+        <div className="process-horizontal-grid" data-reveal data-reveal-stagger>
           <div className="process-stage-item">
             <span className="process-stage-badge">1. Consultation</span>
             <h3 className="process-stage-title">Share Your Project</h3>
@@ -351,7 +351,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 9: CUSTOMER TESTIMONIALS */}
-      <section className="testimonials-section">
+      <section className="testimonials-section" data-reveal>
         <div className="container">
           <div className="section-header-block">
             <div>
@@ -362,7 +362,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="testimonials-cards-grid">
+          <div className="testimonials-cards-grid" data-reveal data-reveal-stagger>
             {testimonials.map((t) => (
               <blockquote key={t.name} className="testimonial-quote-card">
                 <p className="quote-text">&ldquo;{t.quote}&rdquo;</p>
@@ -392,7 +392,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 10: FAQ */}
-      <section className="faq-section container" id="faq">
+      <section className="faq-section container" id="faq" data-reveal>
         <div className="faq-layout-split">
           <div className="faq-intro-column">
             <h2 className="section-title">Frequently Asked Questions</h2>
@@ -415,7 +415,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 11: FINAL CALL TO ACTION */}
-      <section className="final-cta-section">
+      <section className="final-cta-section" data-reveal>
         <div className="container final-cta-wrapper">
           <div className="final-cta-content">
             <h2 className="section-title text-light">

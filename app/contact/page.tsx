@@ -30,7 +30,7 @@ export default function ContactPage() {
       </section>
 
       {/* MAIN CONTACT LAYOUT */}
-      <section className="contact-main-grid container">
+      <section className="contact-main-grid container" data-reveal>
         {/* LEFT COLUMN: CONTACT DETAILS & PERKS */}
         <div className="contact-details-column">
           <div className="contact-card-surface">

@@ -366,6 +366,40 @@ h1, h2, h3, h4 {
   }
 }
 
+/* SCROLL REVEAL */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 650ms var(--ease-out), transform 650ms var(--ease-out);
+  will-change: opacity, transform;
+}
+
+[data-reveal="in"] {
+  opacity: 1;
+  transform: none;
+}
+
+[data-reveal-stagger] > * {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 600ms var(--ease-out), transform 600ms var(--ease-out);
+  will-change: opacity, transform;
+}
+
+[data-reveal-stagger][data-reveal="in"] > * {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal],
+  [data-reveal-stagger] > * {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
 .desktop-nav {
   display: flex;
   align-items: center;

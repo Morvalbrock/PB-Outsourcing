@@ -26,7 +26,7 @@ export default function AboutPage() {
       </section>
 
       {/* 2. COMPANY INTRODUCTION */}
-      <section className="about-intro-split container">
+      <section className="about-intro-split container" data-reveal>
         <div className="about-intro-text">
           <h2 className="section-title">Dedicated to Visual Clarity and Spatial Authenticity.</h2>
           <p className="about-body-paragraph">
@@ -57,7 +57,7 @@ export default function AboutPage() {
       </section>
 
       {/* 3. SERVICES & CAPABILITIES OVERVIEW */}
-      <section className="about-capabilities-strip">
+      <section className="about-capabilities-strip" data-reveal>
         <div className="container">
           <div className="section-header-block">
             <div>
@@ -109,7 +109,7 @@ export default function AboutPage() {
       </section>
 
       {/* 4. QUALITY-FOCUSED WORKFLOW */}
-      <section className="about-workflow-section container">
+      <section className="about-workflow-section container" data-reveal>
         <div className="workflow-split-layout">
           <div className="workflow-image-container">
             <div className="workflow-photo-frame">
@@ -175,7 +175,7 @@ export default function AboutPage() {
       </section>
 
       {/* 5. CLIENT COLLABORATION & WHY CHOOSE US */}
-      <section className="about-collaboration-section">
+      <section className="about-collaboration-section" data-reveal>
         <div className="container">
           <div className="section-header-block text-center-block">
             <h2 className="section-title">Why Professionals Choose ClearPixelImages.</h2>
@@ -213,7 +213,7 @@ export default function AboutPage() {
       </section>
 
       {/* 6. CALL TO ACTION TO REQUEST A QUOTE */}
-      <section className="final-cta-section">
+      <section className="final-cta-section" data-reveal>
         <div className="container final-cta-wrapper">
           <div className="final-cta-content">
             <h2 className="section-title text-light">

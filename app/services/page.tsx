@@ -96,6 +96,7 @@ export default function ServicesPage() {
               key={service.id}
               id={service.id}
               className={`service-detail-section ${isEven ? "reverse-layout" : ""}`}
+              data-reveal
             >
               {service.id === "hdr-photo-editing" && (
                 <div className="hdr-service-top-strip">
@@ -202,7 +203,7 @@ export default function ServicesPage() {
       </section>
 
       {/* FINAL PAGE CTA */}
-      <section className="final-cta-section">
+      <section className="final-cta-section" data-reveal>
         <div className="container final-cta-wrapper">
           <div className="final-cta-content">
             <h2 className="section-title text-light">
