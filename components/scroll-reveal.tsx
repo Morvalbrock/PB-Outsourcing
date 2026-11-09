@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 const STAGGER_STEP_MS = 90;
 const THRESHOLD = 0.12;
 const ROOT_MARGIN = "0px 0px -6% 0px";
+const DEFER_MS = 120;
 
 function applyStagger(container: HTMLElement) {
   const step = Number(container.dataset.revealStep ?? STAGGER_STEP_MS);
@@ -23,18 +24,27 @@ function isBelowFold(el: HTMLElement) {
 
 export function ScrollReveal() {
   const pathname = usePathname();
+  const [hydrated, setHydrated] = useState(false);
+
+  // First render after mount: flip the flag. Because this runs AFTER the initial
+  // commit, the next render is guaranteed to be post-hydration — the DOM-mutating
+  // effect below only runs on that second render cycle.
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
 
   useEffect(() => {
+    if (!hydrated) return;
     if (typeof window === "undefined") return;
 
     const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (prefersReduced) return;
 
     let observer: IntersectionObserver | null = null;
-    // Defer past the current commit so hydration of sibling client components finishes first.
-    // Mutating data-reveal-pending during hydration causes a client/server attribute mismatch
-    // because the parent layout's effect runs before the page tree is fully reconciled.
-    const raf = window.requestAnimationFrame(() => {
+
+    // Extra defer so streaming-hydrated client components finish reconciling
+    // before we touch their DOM. 120ms is imperceptible for below-fold elements.
+    const timer = window.setTimeout(() => {
       const targets = Array.from(
         document.querySelectorAll<HTMLElement>("[data-reveal]")
       );
@@ -63,13 +73,13 @@ export function ScrollReveal() {
           observer!.observe(el);
         }
       });
-    });
+    }, DEFER_MS);
 
     return () => {
-      window.cancelAnimationFrame(raf);
+      window.clearTimeout(timer);
       observer?.disconnect();
     };
-  }, [pathname]);
+  }, [hydrated, pathname]);
 
   return null;
 }
