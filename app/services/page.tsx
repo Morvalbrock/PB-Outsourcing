@@ -3,7 +3,13 @@ import Link from "next/link";
 import { ArrowRight, CheckCircle2, Phone, Sparkles } from "lucide-react";
 import { services } from "@/data/services";
 import { BeforeAfterSlider } from "@/components/before-after-slider";
-import { comparisons, hdrComparisons } from "@/data/comparisons";
+import { ServiceVideoPlayer } from "@/components/service-video-player";
+import {
+  comparisons,
+  hdrComparisons,
+  twilightComparisons,
+  stagingComparisons,
+} from "@/data/comparisons";
 
 export const metadata = {
   title: "Professional Photo & Visual Editing Services | ClearPixelImages",
@@ -48,6 +54,38 @@ export default function ServicesPage() {
           <span className="value-pill"><CheckCircle2 size={15} /> 9. Wedding Editing</span>
           <span className="value-pill"><CheckCircle2 size={15} /> 10. Aerial & Drone</span>
         </div>
+
+        {/* SERVICE TURNAROUND & REVISION GUARANTEE BANNER */}
+        <div
+          className="service-guarantee-banner"
+          style={{
+            marginTop: "32px",
+            padding: "18px 24px",
+            background: "var(--forest)",
+            borderRadius: "var(--radius-md)",
+            color: "var(--paper)",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            gap: "20px",
+            flexWrap: "wrap",
+          }}
+        >
+          <div style={{ display: "flex", gap: "24px", alignItems: "center", flexWrap: "wrap" }}>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: "8px", fontWeight: "700", fontSize: "14px" }}>
+              ⚡ <strong style={{ color: "var(--lime)" }}>Urgent Folder Delivery:</strong> 2 Hours
+            </span>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: "8px", fontWeight: "700", fontSize: "14px" }}>
+              🔄 <strong style={{ color: "var(--lime)" }}>All Feedback Free:</strong> Within 1 Hour
+            </span>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: "8px", fontWeight: "700", fontSize: "14px" }}>
+              🎁 <strong style={{ color: "var(--lime)" }}>Free Test Order:</strong> Guaranteed Given Time
+            </span>
+          </div>
+          <Link href="/contact" className="button button-accent" style={{ padding: "10px 20px", fontSize: "13px" }}>
+            Request Free Test Edit <ArrowRight size={14} />
+          </Link>
+        </div>
       </section>
 
       {/* DETAILED SERVICES LIST */}
@@ -79,16 +117,35 @@ export default function ServicesPage() {
               )}
 
               <div className="service-media-pane">
-                {comparisonPresetId ? (
+                {service.id === "video-editing" ? (
+                  <div className="service-embedded-slider">
+                    <ServiceVideoPlayer />
+                  </div>
+                ) : comparisonPresetId ? (
                   <div className="service-embedded-slider">
                     <BeforeAfterSlider
-                      initialPresetId={comparisonPresetId}
+                      initialPresetId={
+                        service.id === "day-to-night" || service.id === "twilight"
+                          ? "twilight-sample-1"
+                          : service.id === "virtual-staging"
+                          ? "staging-sample-1"
+                          : comparisonPresetId
+                      }
                       items={
                         service.id === "hdr-photo-editing"
                           ? hdrComparisons
+                          : service.id === "day-to-night" || service.id === "twilight"
+                          ? twilightComparisons
+                          : service.id === "virtual-staging"
+                          ? stagingComparisons
                           : comparisons.filter((c) => c.id === comparisonPresetId)
                       }
-                      showSelector={service.id === "hdr-photo-editing"}
+                      showSelector={
+                        service.id === "hdr-photo-editing" ||
+                        service.id === "day-to-night" ||
+                        service.id === "twilight" ||
+                        service.id === "virtual-staging"
+                      }
                     />
                   </div>
                 ) : (

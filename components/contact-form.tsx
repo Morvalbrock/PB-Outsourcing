@@ -176,10 +176,10 @@ export function ContactForm() {
               <label htmlFor="timeline">Preferred Delivery Timeline *</label>
               <select id="timeline" name="timeline" required defaultValue="">
                 <option value="" disabled>Select expected timeline</option>
-                <option value="standard">Standard turnaround</option>
-                <option value="urgent">Prompt delivery</option>
+                <option value="urgent-2hr">⚡ Urgent Folder (2 Hours Guaranteed)</option>
+                <option value="free-test">🎁 Free Test Order (With Promised Given Time)</option>
+                <option value="standard-12-24hr">Standard turnaround (12 to 24 Hours)</option>
                 <option value="scheduled">Scheduled recurring pipeline</option>
-                <option value="flexible">Flexible / Exploratory</option>
               </select>
             </div>
 

@@ -30,9 +30,19 @@ export const faqItems: FAQItem[] = [
       "We regularly support high-volume editing for busy real estate photographers, commercial agencies, and property marketing teams managing continuous listing schedules. We scale capacity to match your workload.",
   },
   {
-    question: "How can I discuss turnaround times?",
+    question: "What is your turnaround time for urgent folders?",
     answer:
-      "Turnaround depends on project volume and service complexity. During initial project consultation, we agree on a delivery schedule that fits your listing deadlines and publishing calendar.",
+      "For urgent folders and rush orders, ClearPixelImages offers a guaranteed 2-hour delivery. When you have an emergency listing deadline or immediate client request, mark your order as urgent and our dedicated retouchers deliver high-resolution, perfected assets within 2 hours.",
+  },
+  {
+    question: "What is your policy for feedback and revisions?",
+    answer:
+      "All client feedback and revision requests are covered 100% free of charge within 1 hour. Simply message or send your adjustment notes, and our team immediately re-calibrates and re-delivers the perfected files within 60 minutes.",
+  },
+  {
+    question: "Can I test your editing service before placing an order?",
+    answer:
+      "Yes! We provide free test edits with a guaranteed given delivery time. Send us sample RAW exposures, twilight brackets, or video clips along with your instructions, and we return the finished edit within the promised turnaround time so you can evaluate our speed and quality risk-free.",
   },
   {
     question: "How are final files delivered?",

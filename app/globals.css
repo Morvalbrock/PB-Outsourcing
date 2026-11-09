@@ -158,6 +158,53 @@ h1, h2, h3, h4 {
   background-color: #dde2d8;
 }
 
+/* TOP GUARANTEE ANNOUNCEMENT STRIP */
+.top-guarantee-strip {
+  background-color: var(--forest);
+  color: var(--paper);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.top-guarantee-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.top-guarantee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.top-guarantee-item strong {
+  color: var(--lime);
+}
+
+.strip-dot {
+  opacity: 0.4;
+  font-size: 10px;
+}
+
+@media (max-width: 768px) {
+  .top-guarantee-strip {
+    font-size: 11px;
+    padding: 6px 0;
+  }
+  .top-guarantee-content {
+    gap: 10px;
+  }
+  .strip-dot {
+    display: none;
+  }
+}
+
 /* HEADER */
 .site-header {
   position: sticky;
@@ -1006,6 +1053,53 @@ h1, h2, h3, h4 {
 
 .transformation-section .comparison-caption p {
   color: #e6ede6;
+}
+
+/* SERVICE VIDEO WIDGET */
+.service-video-widget {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.service-video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  background-color: var(--surface-dark);
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(20, 37, 31, 0.12);
+  border: 1px solid var(--grey);
+}
+
+.service-video-element {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #000;
+  display: block;
+}
+
+.service-video-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  background-color: rgba(20, 37, 31, 0.88);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--lime);
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  pointer-events: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 /* PORTFOLIO SHOWCASE & LIGHTBOX */

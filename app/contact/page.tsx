@@ -1,4 +1,12 @@
-import { Phone, MessageSquare, CheckCircle2, ShieldCheck } from "lucide-react";
+import {
+  Phone,
+  MessageSquare,
+  CheckCircle2,
+  ShieldCheck,
+  Zap,
+  RotateCcw,
+  Clock,
+} from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
 
 export const metadata = {
@@ -76,6 +84,25 @@ export default function ContactPage() {
                 <li>
                   <CheckCircle2 size={16} />
                   <span>Cloud link (Google Drive, Dropbox, WeTransfer)</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* TURNAROUND & REVISIONS GUARANTEE */}
+            <div className="contact-workflow-perks" style={{ borderLeft: "4px solid var(--lime)", background: "var(--surface-tint)" }}>
+              <span className="perks-heading" style={{ color: "var(--forest)" }}>Turnaround &amp; Revisions Guarantee</span>
+              <ul className="perks-list">
+                <li>
+                  <Zap size={16} style={{ color: "var(--green)" }} />
+                  <span><strong>⚡ Urgent Folder:</strong> Delivered within 2 Hours</span>
+                </li>
+                <li>
+                  <RotateCcw size={16} style={{ color: "var(--green)" }} />
+                  <span><strong>🔄 Free Revisions:</strong> All feedback covered free within 1 Hour</span>
+                </li>
+                <li>
+                  <Clock size={16} style={{ color: "var(--green)" }} />
+                  <span><strong>🎁 Free Test Order:</strong> Guaranteed given delivery time to test quality</span>
                 </li>
               </ul>
             </div>

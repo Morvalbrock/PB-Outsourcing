@@ -3,9 +3,11 @@ import Link from "next/link";
 import {
   ArrowRight,
   ArrowDownRight,
-  CheckCircle,
+  Clock,
   Phone,
+  RotateCcw,
   Sparkles,
+  Zap,
 } from "lucide-react";
 import { services } from "@/data/services";
 import { testimonials } from "@/data/testimonials";
@@ -47,13 +49,13 @@ export default function HomePage() {
 
             <div className="hero-value-pills">
               <span className="value-pill">
-                <CheckCircle size={15} /> Professional Quality
+                <Zap size={15} /> 2-Hour Urgent Folder Delivery
               </span>
               <span className="value-pill">
-                <CheckCircle size={15} /> Reliable Turnaround
+                <RotateCcw size={15} /> All Feedback Free in 1 Hour
               </span>
               <span className="value-pill">
-                <CheckCircle size={15} /> Scalable Editing Support
+                <Clock size={15} /> Free Test Edit with Given Time
               </span>
             </div>
           </div>
@@ -271,30 +273,30 @@ export default function HomePage() {
 
           <div className="why-us-benefits-matrix">
             <div className="why-benefit-item">
-              <h3 className="why-benefit-title">Consistent Quality</h3>
+              <h3 className="why-benefit-title">⚡ 2-Hour Urgent Folder Delivery</h3>
               <p className="why-benefit-text">
-                Maintain a polished, cohesive look across your property image collections with strict color management.
+                Urgent folders given to 2 hours guaranteed delivery. When deadlines are imminent, rush projects are prioritized and delivered in just 120 minutes.
               </p>
             </div>
 
             <div className="why-benefit-item">
-              <h3 className="why-benefit-title">Reliable Delivery</h3>
+              <h3 className="why-benefit-title">🔄 All Feedback Covered Free (1 Hr)</h3>
               <p className="why-benefit-text">
-                Keep projects moving with a clear editing workflow, agreed delivery targets, and dependable communication.
+                100% free revisions on every order. Submit your feedback or adjustments and our editing team returns updated files within 1 hour.
               </p>
             </div>
 
             <div className="why-benefit-item">
-              <h3 className="why-benefit-title">Flexible Capacity</h3>
+              <h3 className="why-benefit-title">🎁 Free Test Order with Given Time</h3>
               <p className="why-benefit-text">
-                Get editing support for individual projects or larger property image collections without overhead constraints.
+                Test our quality and speed completely risk-free. Send sample raw images and we deliver them within our promised given timeframe.
               </p>
             </div>
 
             <div className="why-benefit-item">
-              <h3 className="why-benefit-title">Clear Communication</h3>
+              <h3 className="why-benefit-title">Strict Color & Scalable Pipeline</h3>
               <p className="why-benefit-text">
-                Share project requirements and receive updates through a straightforward service process via direct messaging.
+                Strict color management calibrated to your camera profiles, effortlessly scaling from single listings to high-volume agency shoots.
               </p>
             </div>
           </div>
@@ -317,34 +319,34 @@ export default function HomePage() {
 
         <div className="process-horizontal-grid">
           <div className="process-stage-item">
-            <span className="process-stage-badge">Consultation</span>
+            <span className="process-stage-badge">1. Consultation</span>
             <h3 className="process-stage-title">Share Your Project</h3>
             <p className="process-stage-desc">
-              Tell us which services you need and share your requirements, reference styles, or listing notes.
+              Select your services (or request a free test order) and share your camera guidelines or listing notes.
             </p>
           </div>
 
           <div className="process-stage-item">
-            <span className="process-stage-badge">Transfer</span>
+            <span className="process-stage-badge">2. Transfer</span>
             <h3 className="process-stage-title">Send Your Files</h3>
             <p className="process-stage-desc">
-              Provide your property photographs, footage, floor plan requirements, or reference material via cloud link.
+              Provide your RAW bracket sets, drone footage, or reference files via any cloud link (Drive, Dropbox, WeTransfer).
             </p>
           </div>
 
           <div className="process-stage-item">
-            <span className="process-stage-badge">Refinement</span>
-            <h3 className="process-stage-title">Editing & Review</h3>
+            <span className="process-stage-badge">3. Fast Edits & Free Revisions</span>
+            <h3 className="process-stage-title">1-Hour Feedback Cover</h3>
             <p className="process-stage-desc">
-              Our editing workflow focuses on consistency, presentation, and your specified creative instructions.
+              Our specialists edit to perfection. Any revision or feedback is handled completely free within 1 hour.
             </p>
           </div>
 
           <div className="process-stage-item">
-            <span className="process-stage-badge">Completion</span>
-            <h3 className="process-stage-title">Final Delivery</h3>
+            <span className="process-stage-badge">4. Rapid Completion</span>
+            <h3 className="process-stage-title">2-Hour Urgent Delivery</h3>
             <p className="process-stage-desc">
-              Receive the completed deliverables formatted for MLS, social media, and high-resolution print marketing.
+              Receive publication-ready assets on schedule, with urgent folders guaranteed and delivered within 2 hours.
             </p>
           </div>
         </div>

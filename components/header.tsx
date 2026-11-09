@@ -20,6 +20,22 @@ export function Header() {
 
   return (
     <header className="site-header">
+      <div className="top-guarantee-strip">
+        <div className="container top-guarantee-content">
+          <span className="top-guarantee-item">
+            ⚡ <strong>Urgent Folder Delivery:</strong> 2 Hours
+          </span>
+          <span className="strip-dot" aria-hidden="true">•</span>
+          <span className="top-guarantee-item">
+            🔄 <strong>All Feedback Free:</strong> Within 1 Hour
+          </span>
+          <span className="strip-dot" aria-hidden="true">•</span>
+          <span className="top-guarantee-item">
+            🎁 <strong>Free Test Order:</strong> Guaranteed Turnaround Time
+          </span>
+        </div>
+      </div>
+
       <div className="container header-container">
         <Link
           className="brand-logo"

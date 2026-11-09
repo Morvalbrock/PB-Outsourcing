@@ -13,16 +13,49 @@ export type PortfolioItem = {
   alt: string;
   isVideo?: boolean;
   videoDuration?: string;
+  videoSrc?: string;
 };
 
 const items: PortfolioItem[] = [
   {
     id: "p-single-1",
-    title: "Kitchen & Dining Neutral Balance",
+    title: "Single Image Tone & Exposure Polish",
     category: "Single Image",
-    description: "Neutral daylight white balance removing yellow tungsten casts on stone countertops.",
-    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
-    alt: "Architectural kitchen with balanced daylight",
+    description: "Single-exposure capture refined with neutral white balance, shadow recovery, and crisp architectural detail.",
+    image: "/single-image/single-sample-1-after.jpg",
+    alt: "Single-image edited real estate interior with balanced tones",
+  },
+  {
+    id: "p-single-2",
+    title: "Interior Shadow Recovery & White Balance",
+    category: "Single Image",
+    description: "Warm cast neutralized and shadow detail lifted from a single RAW frame while preserving natural ambient light.",
+    image: "/single-image/single-sample-2-after.jpg",
+    alt: "Single-shot interior with neutralized color cast and recovered shadows",
+  },
+  {
+    id: "p-single-3",
+    title: "Single Shot Contrast & Clarity Lift",
+    category: "Single Image",
+    description: "Tonal contrast, texture clarity, and realistic window light restored from a single-source exposure.",
+    image: "/single-image/single-sample-3-after.jpg",
+    alt: "Single exposure interior with lifted contrast and clean window light",
+  },
+  {
+    id: "p-single-4",
+    title: "Natural Daylight Color Calibration",
+    category: "Single Image",
+    description: "Color temperature calibrated to true daylight, with cleaned highlights and faithful material tones.",
+    image: "/single-image/single-sample-4-after.jpg",
+    alt: "Single frame real estate interior with daylight color calibration",
+  },
+  {
+    id: "p-single-5",
+    title: "Single Image Window Pull & Finish",
+    category: "Single Image",
+    description: "Window exterior pulled in from a single exposure using mask-based brightness and ambient tone balancing.",
+    image: "/single-image/single-sample-5-after.jpg",
+    alt: "Single-exposure interior with clear window pull and balanced finish",
   },
   {
     id: "p1",
@@ -37,7 +70,7 @@ const items: PortfolioItem[] = [
     title: "Mid-Century Modern Villa at Dusk",
     category: "Day to Night",
     description: "Day-to-night conversion featuring deep dusk skies and illuminated architectural windows.",
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1400&q=85",
+    image: "/day-to-twilight/twilight-sample-1-after.jpg",
     alt: "Contemporary residential exterior at dusk with warm interior lighting",
   },
   {
@@ -45,7 +78,7 @@ const items: PortfolioItem[] = [
     title: "Atmospheric Twilight Estate Facade",
     category: "Twilight",
     description: "Golden hour and dusk polish enriching ambient lantern glows and vibrant sky gradients.",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=85",
+    image: "/day-to-twilight/twilight-sample-2-after.jpg",
     alt: "Suburban residence exterior at twilight with lit landscape lights",
   },
   {
@@ -58,19 +91,35 @@ const items: PortfolioItem[] = [
   },
   {
     id: "p3",
-    title: "Scandinavian Staged Open-Plan Suite",
+    title: "Open Living Suite Contemporary Staging",
     category: "Staging",
-    description: "Vacant space digitally furnished with contemporary sectional, rugs, and botanical accents.",
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85",
+    description: "Vacant space digitally styled with modern sectional sofa, contemporary rug, coffee table, and art.",
+    image: "/virtual-staging/staging-sample-1-after.jpg",
     alt: "Architectural living space staged with modern Scandinavian furniture",
   },
   {
-    id: "p-clip-1",
-    title: "Designer Armchair Vector Cutout",
-    category: "Clipping Path",
-    description: "Hand-crafted vector pen-tool clipping path for e-commerce catalog isolation.",
-    image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1400&q=85",
-    alt: "Designer furniture cleanly isolated with clipping path",
+    id: "p-stage-2",
+    title: "Modern Scandinavian Lounge Staging",
+    category: "Staging",
+    description: "Unfurnished contemporary interior decorated with plush seating, ambient illumination, and curated textures.",
+    image: "/virtual-staging/staging-sample-2-after.jpg",
+    alt: "Contemporary room staged with Scandinavian furnishings and ambient lighting",
+  },
+  {
+    id: "p-stage-3",
+    title: "Sunlit Dining & Living Lounge Staging",
+    category: "Staging",
+    description: "Hardwood open area enhanced with designer dining table, comfortable armchairs, and pendant fixture.",
+    image: "/virtual-staging/staging-sample-3-after.jpg",
+    alt: "Sunlit dining and lounge interior staged with modern dining suite",
+  },
+  {
+    id: "p-stage-4",
+    title: "Master Bedroom Suite Staging",
+    category: "Staging",
+    description: "Bare bedroom realistically dressed with plush king bed, nightstands, and soft ambient bedside lighting.",
+    image: "/virtual-staging/staging-sample-4-after.jpg",
+    alt: "Cozy master bedroom suite staged with bed, pillows, lamps, and art",
   },
   {
     id: "p-hdr-3",
@@ -82,11 +131,19 @@ const items: PortfolioItem[] = [
   },
   {
     id: "p-rem-1",
-    title: "Suburban Residence Wire & Distraction Removal",
+    title: "Exterior Distraction & Clutter Removal",
     category: "Item Removal",
-    description: "Retouching removing overhead wires, driveway stains, bins, and refining curb appeal.",
-    image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=85",
-    alt: "Clean residential facade with manicured lawn and clear blue sky",
+    description: "Seamless erasure of unwanted objects and distractions with natural texture reconstruction.",
+    image: "/object-removal/removal-sample-1-after.jpg",
+    alt: "Property exterior cleaned of distractions with seamless retouching",
+  },
+  {
+    id: "p-rem-2",
+    title: "Interior Object & Reflection Cleanup",
+    category: "Item Removal",
+    description: "Reflective markers and interior clutter cleanly removed while preserving surface detail and lighting.",
+    image: "/object-removal/removal-sample-2-after.jpg",
+    alt: "Interior scene with objects seamlessly removed and textures preserved",
   },
   {
     id: "p-wed-1",
@@ -98,11 +155,19 @@ const items: PortfolioItem[] = [
   },
   {
     id: "p-aer-1",
-    title: "Coastal Waterfront Estate Aerial Drone",
+    title: "Aerial Drone Haze Removal & Color Pop",
     category: "Aerial",
-    description: "Atmospheric haze removal, vibrant ocean saturation, and horizon leveling from 200ft altitude.",
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=85",
-    alt: "Elevated aerial drone perspective of luxury waterfront property",
+    description: "Atmospheric haze cut, saturation lifted, and horizon straightened for a crisp overhead presentation.",
+    image: "/aerial/aerial-sample-1-after.jpg",
+    alt: "Clear aerial drone photograph with vivid landscape color and leveled horizon",
+  },
+  {
+    id: "p-aer-2",
+    title: "Aerial Landscape Clarity & Horizon Correction",
+    category: "Aerial",
+    description: "Washed sky and soft tones replaced with vibrant greenery, defined horizon, and natural sunlight.",
+    image: "/aerial/aerial-sample-2-after.jpg",
+    alt: "Aerial drone photograph with vibrant greenery and corrected horizon",
   },
   {
     id: "p-hdr-4",
@@ -129,14 +194,70 @@ const items: PortfolioItem[] = [
     alt: "Final retouched HDR photograph ready for high-end MLS and print presentation",
   },
   {
-    id: "p7",
-    title: "Cinematic Estate Walkthrough Tour",
+    id: "p-vid-1",
+    title: "Real Estate Promotional Walkthrough",
     category: "Video",
-    description: "Smooth gimbal walkthrough sequence with speed ramps and subtle ambient sound design.",
-    image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85",
-    alt: "Cinematic real estate video preview frame of modern property",
+    description: "Cinematic property promotional reel with smooth stabilization, speed ramping, and branded lower-thirds.",
+    image: "/HDR/After.jpg",
+    alt: "Real Estate Promotional Walkthrough video preview frame",
     isVideo: true,
-    videoDuration: "1:45",
+    videoDuration: "1:05",
+    videoSrc: "/sample-video/real-estate-promo.mp4",
+  },
+  {
+    id: "p-vid-2",
+    title: "Photo Animation & 3D Motion Effects",
+    category: "Video",
+    description: "Dynamic parallax photo animation bringing static photographs to life with cinematic camera depth.",
+    image: "/day-to-twilight/twilight-sample-1-after.jpg",
+    alt: "Photo Animation and 3D Motion Effects preview frame",
+    isVideo: true,
+    videoDuration: "0:45",
+    videoSrc: "/sample-video/photo-animation-effects.mp4",
+  },
+  {
+    id: "p-vid-3",
+    title: "Luxury Interior Walkthrough Tour 1",
+    category: "Video",
+    description: "Complete interior stabilized gimbal tour with natural lighting correction and ambient flow.",
+    image: "/virtual-staging/staging-sample-1-after.jpg",
+    alt: "Luxury Interior Walkthrough Tour preview frame",
+    isVideo: true,
+    videoDuration: "1:30",
+    videoSrc: "/sample-video/sample-1.mp4",
+  },
+  {
+    id: "p-vid-4",
+    title: "Architectural Property Tour 2",
+    category: "Video",
+    description: "Multi-room architectural showcase with smooth gimbal pans, room speedramps, and clean cuts.",
+    image: "/HDR/After1.jpg",
+    alt: "Architectural Property Tour preview frame",
+    isVideo: true,
+    videoDuration: "1:15",
+    videoSrc: "/sample-video/sample-3.mp4",
+  },
+  {
+    id: "p-vid-5",
+    title: "Modern Residence Walkthrough",
+    category: "Video",
+    description: "Showcase combining indoor lifestyle spaces and outdoor living zones into a cohesive marketing video.",
+    image: "/virtual-staging/staging-sample-2-after.jpg",
+    alt: "Modern Residence Walkthrough preview frame",
+    isVideo: true,
+    videoDuration: "1:20",
+    videoSrc: "/sample-video/sample-4.mp4",
+  },
+  {
+    id: "p-vid-6",
+    title: "Full Property Showcase Flow Reel",
+    category: "Video",
+    description: "High-impact highlight reel showcasing exterior grounds, living zones, and luxury property finishes.",
+    image: "/day-to-twilight/twilight-sample-2-after.jpg",
+    alt: "Full Property Showcase Flow Reel preview frame",
+    isVideo: true,
+    videoDuration: "1:10",
+    videoSrc: "/sample-video/sample-6.mp4",
   },
 ];
 
@@ -148,7 +269,6 @@ const categories = [
   "Twilight",
   "Staging",
   "Video",
-  "Clipping Path",
   "Item Removal",
   "Wedding",
   "Aerial",
@@ -237,25 +357,33 @@ export function PortfolioGallery() {
           className="lightbox-overlay"
           role="dialog"
           aria-modal="true"
-          aria-label="Image preview lightbox"
+          aria-label="Media preview lightbox"
           onClick={() => setSelectedIndex(null)}
         >
           <div className="lightbox-container" onClick={(e) => e.stopPropagation()}>
             <div className="lightbox-media-box">
-              <Image
-                src={filteredItems[selectedIndex].image}
-                alt={filteredItems[selectedIndex].alt}
-                fill
-                sizes="95vw"
-                priority
-              />
-              {filteredItems[selectedIndex].isVideo && (
-                <div className="lightbox-video-overlay">
-                  <span className="lightbox-play-circle">
-                    <Play size={28} fill="currentColor" />
-                  </span>
-                  <p>Sample real estate video preview clip</p>
-                </div>
+              {filteredItems[selectedIndex].isVideo && filteredItems[selectedIndex].videoSrc ? (
+                <video
+                  key={filteredItems[selectedIndex].videoSrc}
+                  src={filteredItems[selectedIndex].videoSrc}
+                  controls
+                  autoPlay
+                  playsInline
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                    backgroundColor: "#000",
+                  }}
+                />
+              ) : (
+                <Image
+                  src={filteredItems[selectedIndex].image}
+                  alt={filteredItems[selectedIndex].alt}
+                  fill
+                  sizes="95vw"
+                  priority
+                />
               )}
             </div>
 
@@ -275,7 +403,7 @@ export function PortfolioGallery() {
                       (selectedIndex - 1 + filteredItems.length) % filteredItems.length
                     )
                   }
-                  aria-label="Previous image"
+                  aria-label="Previous item"
                 >
                   <ChevronLeft size={20} />
                 </button>
@@ -285,8 +413,10 @@ export function PortfolioGallery() {
                 <button
                   type="button"
                   className="lightbox-nav-btn"
-                  onClick={() => setSelectedIndex((selectedIndex + 1) % filteredItems.length)}
-                  aria-label="Next image"
+                  onClick={() =>
+                    setSelectedIndex((selectedIndex + 1) % filteredItems.length)
+                  }
+                  aria-label="Next item"
                 >
                   <ChevronRight size={20} />
                 </button>
@@ -294,7 +424,7 @@ export function PortfolioGallery() {
                   type="button"
                   className="lightbox-close-btn"
                   onClick={() => setSelectedIndex(null)}
-                  aria-label="Close preview"
+                  aria-label="Close modal preview"
                 >
                   <X size={20} />
                 </button>

@@ -81,11 +81,11 @@ export function Footer() {
           <div className="footer-nav-column">
             <span className="footer-column-heading">Production Details</span>
             <p className="footer-detail-note">
-              High-volume post-production studio delivering consistent color grading, sub-pixel bracket blending, hand-drawn vector clipping paths, and emotion-driven wedding retouching.
+              High-volume post-production studio delivering 2-hour urgent folder delivery, free 1-hour feedback revisions, and guaranteed turnaround time on free test orders.
             </p>
             <div className="footer-support-hours">
               <span className="status-indicator-dot" />
-              <span>Direct production coordination via phone & WhatsApp</span>
+              <span>Direct production via Phone &amp; WhatsApp: +91 99443 10379</span>
             </div>
           </div>
         </div>
