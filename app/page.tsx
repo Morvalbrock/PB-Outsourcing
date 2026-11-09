@@ -15,8 +15,8 @@ import { BeforeAfterSlider } from "@/components/before-after-slider";
 import { FAQAccordion } from "@/components/faq-accordion";
 import { PortfolioGallery } from "@/components/portfolio-gallery";
 
-const heroImage = "/sample-video/real-estate-promo-poster.jpg";
-const trustImage = "/HDR/After3.jpg";
+const heroImage = "/videos/posters/real-estate-promo-poster.jpg";
+const trustImage = "/images/hdr/hdr-sample-4-after.jpg";
 
 export default function HomePage() {
   return (
@@ -70,7 +70,7 @@ export default function HomePage() {
                 aria-label="Contemporary luxury residential architectural property tour"
               >
                 <source
-                  src="/sample-video/real-estate-promo.mp4"
+                  src="/videos/real-estate-promo.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -81,7 +81,7 @@ export default function HomePage() {
             </div>
             <div className="hero-scroll-indicator">
               <span>Scroll to explore visual solutions</span>
-              <span aria-hidden="true">↓</span>
+              <span aria-hidden="true">â†“</span>
             </div>
           </div>
         </div>
@@ -271,21 +271,21 @@ export default function HomePage() {
 
           <div className="why-us-benefits-matrix">
             <div className="why-benefit-item">
-              <h3 className="why-benefit-title">⚡ 2-Hour Urgent Folder Delivery</h3>
+              <h3 className="why-benefit-title">âš¡ 2-Hour Urgent Folder Delivery</h3>
               <p className="why-benefit-text">
                 Urgent folders given to 2 hours guaranteed delivery. When deadlines are imminent, rush projects are prioritized and delivered in just 120 minutes.
               </p>
             </div>
 
             <div className="why-benefit-item">
-              <h3 className="why-benefit-title">🔄 All Feedback Covered Free (1 Hr)</h3>
+              <h3 className="why-benefit-title">ðŸ”„ All Feedback Covered Free (1 Hr)</h3>
               <p className="why-benefit-text">
                 100% free revisions on every order. Submit your feedback or adjustments and our editing team returns updated files within 1 hour.
               </p>
             </div>
 
             <div className="why-benefit-item">
-              <h3 className="why-benefit-title">🎁 Free Test Order with Given Time</h3>
+              <h3 className="why-benefit-title">ðŸŽ Free Test Order with Given Time</h3>
               <p className="why-benefit-text">
                 Test our quality and speed completely risk-free. Send sample raw images and we deliver them within our promised given timeframe.
               </p>

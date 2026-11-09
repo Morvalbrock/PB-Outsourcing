@@ -149,6 +149,18 @@ h1, h2, h3, h4 {
   border-color: var(--green);
 }
 
+/* Readable button-secondary on dark forest sections */
+.transformation-section .button-secondary,
+.final-cta-section .button-secondary {
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.transformation-section .button-secondary:hover,
+.final-cta-section .button-secondary:hover {
+  color: var(--forest);
+}
+
 .button-tertiary {
   background-color: var(--grey);
   color: var(--forest);

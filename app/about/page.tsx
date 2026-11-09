@@ -8,10 +8,8 @@ export const metadata = {
     "Learn about ClearPixelImages: our approach to real estate, aerial, and creative photo & video post-production.",
 };
 
-const aboutHeroImg =
-  "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=85";
-const aboutWorkflowImg =
-  "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85";
+const aboutHeroImg = "/images/hdr/hdr-sample-2-after.jpg";
+const aboutWorkflowImg = "/images/single-image/single-sample-3-after.jpg";
 
 export default function AboutPage() {
   return (
@@ -48,7 +46,7 @@ export default function AboutPage() {
           <div className="about-image-frame">
             <Image
               src={aboutHeroImg}
-              alt="Architectural residential facade illustrating thoughtful property presentation"
+              alt="Luxury interior with balanced window light illustrating thoughtful property presentation"
               fill
               sizes="(max-width: 900px) 100vw, 50vw"
               className="object-cover"
