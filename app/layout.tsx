@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { BootLoader } from "@/components/boot-loader";
 
 export const metadata: Metadata = {
   title: "ClearPixelImages | Professional Photo & Visual Editing Services",
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body suppressHydrationWarning>
+        <BootLoader />
         <Header />
         <main>{children}</main>
         <Footer />

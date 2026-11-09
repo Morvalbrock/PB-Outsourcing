@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, Phone, MessageSquare } from "lucide-react";
@@ -43,14 +44,14 @@ export function Header() {
           aria-label="ClearPixelImages homepage"
           onClick={() => setIsOpen(false)}
         >
-          <span className="brand-mark">
-            <span className="brand-letters">CPI</span>
-            <span className="brand-frame-line" aria-hidden="true" />
-          </span>
-          <span className="brand-text-group">
-            <span className="brand-name">CLEARPIXELIMAGES</span>
-            <span className="brand-sub">PHOTO & VIDEO EDITING</span>
-          </span>
+          <Image
+            src="/images/logo-trimmed.jpg"
+            alt=""
+            width={1200}
+            height={514}
+            priority
+            className="brand-image"
+          />
         </Link>
 
         <nav className="desktop-nav" aria-label="Main navigation">

@@ -2,6 +2,7 @@
 
 import { FormEvent, useState } from "react";
 import { ArrowRight, UploadCloud, CheckCircle2, Phone, MessageSquare, AlertCircle } from "lucide-react";
+import { ApertureLoader } from "./loader";
 
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -234,8 +235,17 @@ export function ContactForm() {
               className="button button-primary submit-btn"
               disabled={isSubmitting}
             >
-              {isSubmitting ? "Processing..." : "Submit Quote Request"}
-              <ArrowRight size={16} />
+              {isSubmitting ? (
+                <>
+                  <ApertureLoader size={16} label="Submitting quote" />
+                  Processing...
+                </>
+              ) : (
+                <>
+                  Submit Quote Request
+                  <ArrowRight size={16} />
+                </>
+              )}
             </button>
             <p className="form-disclaimer-note">
               Notice: UI demonstration prototype. For immediate production inquiries, call +91 99443 10379.

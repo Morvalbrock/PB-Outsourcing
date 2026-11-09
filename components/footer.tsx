@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Phone, MessageSquare, ArrowUpRight } from "lucide-react";
 
@@ -21,13 +22,14 @@ export function Footer() {
         <div className="footer-columns-grid">
           <div className="footer-brand-column">
             <Link className="brand-logo footer-logo" href="/" aria-label="ClearPixelImages home">
-              <span className="brand-mark footer-brand-mark">
-                <span className="brand-letters">CPI</span>
-                <span className="brand-frame-line" aria-hidden="true" />
-              </span>
-              <span className="brand-text-group">
-                <span className="brand-name text-light">CLEARPIXELIMAGES</span>
-                <span className="brand-sub text-muted">PHOTO & VIDEO EDITING</span>
+              <span className="footer-logo-chip">
+                <Image
+                  src="/images/logo-trimmed.jpg"
+                  alt=""
+                  width={1200}
+                  height={514}
+                  className="brand-image"
+                />
               </span>
             </Link>
             <p className="footer-about-copy">
