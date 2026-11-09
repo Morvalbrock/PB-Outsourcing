@@ -30,36 +30,45 @@ export function ScrollReveal() {
     const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (prefersReduced) return;
 
-    const targets = Array.from(
-      document.querySelectorAll<HTMLElement>("[data-reveal]")
-    );
+    let observer: IntersectionObserver | null = null;
+    // Defer past the current commit so hydration of sibling client components finishes first.
+    // Mutating data-reveal-pending during hydration causes a client/server attribute mismatch
+    // because the parent layout's effect runs before the page tree is fully reconciled.
+    const raf = window.requestAnimationFrame(() => {
+      const targets = Array.from(
+        document.querySelectorAll<HTMLElement>("[data-reveal]")
+      );
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (!entry.isIntersecting) continue;
-          const el = entry.target as HTMLElement;
+      observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (!entry.isIntersecting) continue;
+            const el = entry.target as HTMLElement;
+            if (el.hasAttribute("data-reveal-stagger")) {
+              applyStagger(el);
+            }
+            el.removeAttribute("data-reveal-pending");
+            observer?.unobserve(el);
+          }
+        },
+        { threshold: THRESHOLD, rootMargin: ROOT_MARGIN }
+      );
+
+      targets.forEach((el) => {
+        if (isBelowFold(el)) {
+          el.setAttribute("data-reveal-pending", "");
           if (el.hasAttribute("data-reveal-stagger")) {
             applyStagger(el);
           }
-          el.removeAttribute("data-reveal-pending");
-          observer.unobserve(el);
+          observer!.observe(el);
         }
-      },
-      { threshold: THRESHOLD, rootMargin: ROOT_MARGIN }
-    );
-
-    targets.forEach((el) => {
-      if (isBelowFold(el)) {
-        el.setAttribute("data-reveal-pending", "");
-        if (el.hasAttribute("data-reveal-stagger")) {
-          applyStagger(el);
-        }
-        observer.observe(el);
-      }
+      });
     });
 
-    return () => observer.disconnect();
+    return () => {
+      window.cancelAnimationFrame(raf);
+      observer?.disconnect();
+    };
   }, [pathname]);
 
   return null;
