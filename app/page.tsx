@@ -15,10 +15,8 @@ import { BeforeAfterSlider } from "@/components/before-after-slider";
 import { FAQAccordion } from "@/components/faq-accordion";
 import { PortfolioGallery } from "@/components/portfolio-gallery";
 
-const heroImage =
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85";
-const trustImage =
-  "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85";
+const heroImage = "/sample-video/real-estate-promo-poster.jpg";
+const trustImage = "/HDR/After3.jpg";
 
 export default function HomePage() {
   return (
@@ -72,7 +70,7 @@ export default function HomePage() {
                 aria-label="Contemporary luxury residential architectural property tour"
               >
                 <source
-                  src="https://assets.mixkit.co/videos/preview/mixkit-modern-apartment-with-panoramic-view-40742-large.mp4"
+                  src="/sample-video/real-estate-promo.mp4"
                   type="video/mp4"
                 />
               </video>

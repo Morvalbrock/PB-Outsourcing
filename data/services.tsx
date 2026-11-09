@@ -35,8 +35,8 @@ export const services: Service[] = [
       "Lens distortion, keystoning, and vertical alignment",
       "Optimized for high-speed delivery and web platforms",
     ],
-    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85",
-    imageAlt: "Single-exposure living room with clean daylight balance and natural finishes",
+    image: "/single-image/single-sample-1-after.jpg",
+    imageAlt: "Single-exposure interior refined with balanced tone and natural daylight",
     iconName: "Sun",
   },
   {
@@ -137,8 +137,8 @@ export const services: Service[] = [
       "Interior cord, pet accessory, and clutter decluttering",
       "Natural texture cloning on wood, turf, and tiles",
     ],
-    image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=85",
-    imageAlt: "Immaculate architectural residence with clean driveway and flawless lawn",
+    image: "/object-removal/removal-sample-1-after.jpg",
+    imageAlt: "Property scene with distractions seamlessly removed and textures preserved",
     iconName: "Eraser",
   },
   {
@@ -154,8 +154,8 @@ export const services: Service[] = [
       "Property boundary outline overlays and locator pins",
       "Vibrant turf greening and ocean blue color enhancement",
     ],
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=85",
-    imageAlt: "Elevated aerial drone perspective of luxury waterfront property with lush grounds",
+    image: "/aerial/aerial-sample-1-after.jpg",
+    imageAlt: "Aerial drone photograph with vivid landscape color and leveled horizon",
     iconName: "Compass",
   },
 ];
