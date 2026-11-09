@@ -35,7 +35,7 @@ export default function HomePage() {
         <div className="hero-split-grid">
           <div className="hero-content-column">
             <p className="hero-support-copy">
-              ClearPixelImages delivers high-end photo and video editing: Single Image, HDR blending, Day to Night, Twilight conversion, Virtual Staging, Video walkthroughs, Clipping Path, Item Removal, Wedding photography, and Aerial Drone solutions.
+              ClearPixelImages delivers high-end photo and video editing: Single Image, HDR blending, Day to Night, Twilight conversion, Virtual Staging, Video walkthroughs, Item Removal, and Aerial Drone solutions.
             </p>
 
             <div className="hero-cta-group">

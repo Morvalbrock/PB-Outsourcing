@@ -150,10 +150,8 @@ export function ContactForm() {
                 <option value="twilight">4. Twilight / Dusk Enhancement</option>
                 <option value="virtual-staging">5. Virtual Staging</option>
                 <option value="video-editing">6. Video Editing</option>
-                <option value="clipping-path">7. Clipping Path (Cutout)</option>
-                <option value="item-removal">8. Item & Object Removal (Declutter)</option>
-                <option value="wedding-image-editing">9. Wedding Image Editing</option>
-                <option value="aerial-drone">10. Aerial & Drone Photo Editing</option>
+                <option value="item-removal">7. Item & Object Removal (Declutter)</option>
+                <option value="aerial-drone">8. Aerial & Drone Photo Editing</option>
                 <option value="multiple-services">Multiple Services (Combined Package)</option>
                 <option value="other">Other Custom Visual Service</option>
               </select>

@@ -200,16 +200,6 @@ export const comparisons: ComparisonItem[] = [
     afterAlt: "Spotless property image with seamless texture reconstruction",
   },
   {
-    id: "wedding",
-    title: "Wedding Story Retouching",
-    category: "Wedding",
-    description: "Romantic bridal retouching, delicate gown lace retention, and cinematic color toning.",
-    beforeImage: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=80",
-    afterImage: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1400&q=80",
-    beforeAlt: "Raw wedding photo before bridal retouching and color toning",
-    afterAlt: "Artistically graded wedding photo with glowing skin tones and emotional warmth",
-  },
-  {
     id: "aerial",
     title: "Aerial & Drone Polish",
     category: "Aerial",

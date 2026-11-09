@@ -7,7 +7,7 @@ export const faqItems: FAQItem[] = [
   {
     question: "What services does ClearPixelImages provide?",
     answer:
-      "ClearPixelImages provides comprehensive photo and video post-production across 10 specialized services: 1. Single Image Editing, 2. HDR Photo Editing, 3. Day-to-Night Conversion, 4. Twilight / Dusk Enhancement, 5. Virtual Staging, 6. Video Editing, 7. Clipping Path (Cutout), 8. Item & Object Removal, 9. Wedding Image Editing, and 10. Aerial & Drone Photo Editing.",
+      "ClearPixelImages provides comprehensive photo and video post-production across 8 specialized services: 1. Single Image Editing, 2. HDR Photo Editing, 3. Day-to-Night Conversion, 4. Twilight / Dusk Enhancement, 5. Virtual Staging, 6. Video Editing, 7. Item & Object Removal, and 8. Aerial & Drone Photo Editing.",
   },
   {
     question: "How can I request a quote?",

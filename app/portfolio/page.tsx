@@ -6,7 +6,7 @@ import { BeforeAfterSlider } from "@/components/before-after-slider";
 export const metadata = {
   title: "Portfolio & Visual Transformations | ClearPixelImages",
   description:
-    "Explore ClearPixelImages visual transformations: Single Image, HDR, Day to Night, Twilight, Virtual Staging, Video Walkthroughs, Item Removal, Wedding Image Editing, and Aerial Drone photography.",
+    "Explore ClearPixelImages visual transformations: Single Image, HDR, Day to Night, Twilight, Virtual Staging, Video Walkthroughs, Item Removal, and Aerial Drone photography.",
 };
 
 export default function PortfolioPage() {
@@ -18,7 +18,7 @@ export default function PortfolioPage() {
           Explore Our Visual Transformations.
         </h1>
         <p className="page-hero-subtitle">
-          Browse ClearPixelImages portfolio across all 10 specialized editing disciplines.
+          Browse ClearPixelImages portfolio across all 8 specialized editing disciplines.
           Filter by service category, view before-and-after comparisons, and inspect high-resolution details in the interactive lightbox.
         </p>
       </section>

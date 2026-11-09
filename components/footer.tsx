@@ -31,7 +31,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="footer-about-copy">
-              Professional visual editing solutions: Single Image, HDR, Day-to-Night, Twilight, Virtual Staging, Video Editing, Clipping Path, Item Removal, Wedding Photo Editing, and Aerial Drone enhancements.
+              Professional visual editing solutions: Single Image, HDR, Day-to-Night, Twilight, Virtual Staging, Video Editing, Item Removal, and Aerial Drone enhancements.
             </p>
             <div className="footer-direct-contact">
               <a href="tel:+919944310379" className="footer-contact-item">
@@ -71,10 +71,8 @@ export function Footer() {
               <li><Link href="/services#twilight">4. Twilight / Dusk</Link></li>
               <li><Link href="/services#virtual-staging">5. Virtual Staging</Link></li>
               <li><Link href="/services#video-editing">6. Video Editing</Link></li>
-              <li><Link href="/services#clipping-path">7. Clipping Path</Link></li>
-              <li><Link href="/services#item-removal">8. Item & Object Removal</Link></li>
-              <li><Link href="/services#wedding-image-editing">9. Wedding Image Editing</Link></li>
-              <li><Link href="/services#aerial-drone">10. Aerial & Drone</Link></li>
+              <li><Link href="/services#item-removal">7. Item & Object Removal</Link></li>
+              <li><Link href="/services#aerial-drone">8. Aerial & Drone</Link></li>
             </ul>
           </div>
 

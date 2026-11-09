@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle2, ShieldCheck, Clock, Users, Sparkles, Phone } 
 export const metadata = {
   title: "About Us | ClearPixelImages — Professional Visual Post-Production Partner",
   description:
-    "Learn about ClearPixelImages: our approach to real estate, wedding, clipping path, aerial, and creative photo & video post-production.",
+    "Learn about ClearPixelImages: our approach to real estate, aerial, and creative photo & video post-production.",
 };
 
 const aboutHeroImg =
@@ -23,7 +23,7 @@ export default function AboutPage() {
         </h1>
         <p className="page-hero-subtitle">
           ClearPixelImages supports photographers, media agencies, studios, and businesses with thoughtful photo editing
-          and visual media services tailored to the exacting demands of residential, commercial, wedding, and e-commerce marketing.
+          and visual media services tailored to the exacting demands of residential, commercial, and e-commerce marketing.
         </p>
       </section>
 

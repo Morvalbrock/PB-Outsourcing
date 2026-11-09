@@ -1,16 +1,14 @@
 # ClearPixelImages — Professional Photo & Video Editing Services
 
-A starter website for ClearPixelImages, showcasing our 10 core creative visual editing disciplines:
+A starter website for ClearPixelImages, showcasing our 8 core creative visual editing disciplines:
 1. Single Image Editing
 2. HDR Photo Editing
 3. Day-to-Night Conversion
 4. Twilight / Dusk Enhancement
 5. Virtual Staging
 6. Video Editing
-7. Clipping Path & Cutouts
-8. Item & Object Removal (Declutter)
-9. Wedding Image Editing
-10. Aerial & Drone Photo Editing
+7. Item & Object Removal (Declutter)
+8. Aerial & Drone Photo Editing
 
 ## Included
 

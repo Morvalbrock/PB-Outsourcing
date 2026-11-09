@@ -14,7 +14,7 @@ import {
 export const metadata = {
   title: "Professional Photo & Visual Editing Services | ClearPixelImages",
   description:
-    "Comprehensive visual solutions by ClearPixelImages: 1. Single Image, 2. HDR, 3. Day to Night, 4. Twilight, 5. Virtual Staging, 6. Video Editing, 7. Clipping Path, 8. Item Removal, 9. Wedding Image Editing, and 10. Aerial Drone Photo Editing.",
+    "Comprehensive visual solutions by ClearPixelImages: 1. Single Image, 2. HDR, 3. Day to Night, 4. Twilight, 5. Virtual Staging, 6. Video Editing, 7. Item Removal, and 8. Aerial Drone Photo Editing.",
 };
 
 const comparisonPresetMap: Record<string, string> = {
@@ -24,7 +24,6 @@ const comparisonPresetMap: Record<string, string> = {
   "twilight": "twilight",
   "virtual-staging": "staging",
   "item-removal": "item-removal",
-  "wedding-image-editing": "wedding",
   "aerial-drone": "aerial",
 };
 
@@ -37,8 +36,8 @@ export default function ServicesPage() {
           Professional Photo & Visual Editing Services.
         </h1>
         <p className="page-hero-subtitle">
-          From single-image exposure calibration to high-bracket HDR blending, virtual staging, wedding storytelling, and drone post-production.
-          Explore our complete 10-service creative suite engineered for photographers, agencies, and studios worldwide.
+          From single-image exposure calibration to high-bracket HDR blending, virtual staging, item removal, and drone post-production.
+          Explore our complete 8-service creative suite engineered for photographers, agencies, and studios worldwide.
         </p>
 
         {/* QUICK SERVICE PILLS */}
@@ -49,10 +48,8 @@ export default function ServicesPage() {
           <span className="value-pill"><CheckCircle2 size={15} /> 4. Twilight / Dusk</span>
           <span className="value-pill"><CheckCircle2 size={15} /> 5. Virtual Staging</span>
           <span className="value-pill"><CheckCircle2 size={15} /> 6. Video Editing</span>
-          <span className="value-pill"><CheckCircle2 size={15} /> 7. Clipping Path</span>
-          <span className="value-pill"><CheckCircle2 size={15} /> 8. Item Removal</span>
-          <span className="value-pill"><CheckCircle2 size={15} /> 9. Wedding Editing</span>
-          <span className="value-pill"><CheckCircle2 size={15} /> 10. Aerial & Drone</span>
+          <span className="value-pill"><CheckCircle2 size={15} /> 7. Item Removal</span>
+          <span className="value-pill"><CheckCircle2 size={15} /> 8. Aerial & Drone</span>
         </div>
 
         {/* SERVICE TURNAROUND & REVISION GUARANTEE BANNER */}
@@ -212,7 +209,7 @@ export default function ServicesPage() {
               Ready to Outsource Your Photo & Video Editing?
             </h2>
             <p className="final-cta-text">
-              Partner with ClearPixelImages for scalable turnaround, strict color management, and dedicated post-production across all 10 service categories.
+              Partner with ClearPixelImages for scalable turnaround, strict color management, and dedicated post-production across all 8 service categories.
             </p>
           </div>
 

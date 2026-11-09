@@ -146,14 +146,6 @@ const items: PortfolioItem[] = [
     alt: "Interior scene with objects seamlessly removed and textures preserved",
   },
   {
-    id: "p-wed-1",
-    title: "Bridal Portrait & Golden Hour Color Grade",
-    category: "Wedding",
-    description: "Warm editorial color toning, delicate gown lace retention, and gentle skin glow retouching.",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=85",
-    alt: "Bride and groom in natural golden hour light with romantic artistic color grading",
-  },
-  {
     id: "p-aer-1",
     title: "Aerial Drone Haze Removal & Color Pop",
     category: "Aerial",
@@ -270,7 +262,6 @@ const categories = [
   "Staging",
   "Video",
   "Item Removal",
-  "Wedding",
   "Aerial",
 ];
 

@@ -8,7 +8,7 @@ export type Testimonial = {
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "ClearPixelImages gives our studio dependable editing support across real estate, aerial drone shoots, and wedding events. Their exposure balancing and natural color rendition make every deliverable look exceptional.",
+      "ClearPixelImages gives our studio dependable editing support across real estate and aerial drone shoots. Their exposure balancing and natural color rendition make every deliverable look exceptional.",
     name: "Marcus Vance",
     role: "Lead Real Estate Photographer",
     location: "Commercial & Residential Media",

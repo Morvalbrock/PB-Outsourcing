@@ -12,7 +12,7 @@ import { ContactForm } from "@/components/contact-form";
 export const metadata = {
   title: "Request a Quote & Contact | ClearPixelImages",
   description:
-    "Get in touch with ClearPixelImages for Single Image, HDR, Day to Night, Twilight, Virtual Staging, Video Editing, Clipping Path, Item Removal, Wedding Image Editing, and Aerial Drone enhancements. Call +91 99443 10379 or message on WhatsApp.",
+    "Get in touch with ClearPixelImages for Single Image, HDR, Day to Night, Twilight, Virtual Staging, Video Editing, Item Removal, and Aerial Drone enhancements. Call +91 99443 10379 or message on WhatsApp.",
 };
 
 export default function ContactPage() {

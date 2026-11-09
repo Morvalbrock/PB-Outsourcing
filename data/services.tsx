@@ -5,9 +5,7 @@ import {
   Compass,
   Contrast,
   Eraser,
-  Heart,
   Home,
-  Scissors,
   Sun,
   Sunset,
 } from "lucide-react";
@@ -127,23 +125,6 @@ export const services: Service[] = [
     iconName: "Clapperboard",
   },
   {
-    id: "clipping-path",
-    title: "Clipping Path (Cutout)",
-    shortDescription:
-      "Pixel-perfect manual pen tool clipping paths, pure white backgrounds, and transparent cutouts for e-commerce and furniture.",
-    fullDescription:
-      "Hand-crafted vector clipping paths created with Photoshop's Pen Tool for flawless edge definition. Ideal for furniture catalogs, interior design cutouts, e-commerce listings, and complex product extractions with sharp or soft alpha channels.",
-    benefits: [
-      "100% hand-drawn vector paths using Adobe Pen Tool",
-      "Crisp edge isolation without jagged or blurred borders",
-      "Pure white (RGB 255,255,255) or transparent PNG exports",
-      "Multi-path selections for localized color changes",
-    ],
-    image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1400&q=85",
-    imageAlt: "Designer armchair cleanly isolated with crisp vector clipping path",
-    iconName: "Scissors",
-  },
-  {
     id: "item-removal",
     title: "Item & Object Removal",
     shortDescription:
@@ -159,23 +140,6 @@ export const services: Service[] = [
     image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=85",
     imageAlt: "Immaculate architectural residence with clean driveway and flawless lawn",
     iconName: "Eraser",
-  },
-  {
-    id: "wedding-image-editing",
-    title: "Wedding Image Editing",
-    shortDescription:
-      "Artistic wedding photo post-production: natural skin retouching, bridal gown detail enhancement, and emotional color grading.",
-    fullDescription:
-      "Wedding photographers shoot thousands of frames under varying light. We provide high-volume culling, uniform color palettes (Clean Film, Warm Moody, Bright & Airy), blemish correction, stray hair removal, and delicate wedding gown contrast preservation.",
-    benefits: [
-      "Natural skin retouching and gentle eye/teeth brightening",
-      "Cohesive color palette applied across the entire celebration",
-      "Delicate bridal gown lace and veil detail recovery",
-      "Discreet removal of exit signs, background guests, and clutter",
-    ],
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=85",
-    imageAlt: "Bride and groom in natural golden hour light with romantic artistic color grading",
-    iconName: "Heart",
   },
   {
     id: "aerial-drone",

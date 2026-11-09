@@ -6,7 +6,7 @@ import { Footer } from "@/components/footer";
 export const metadata: Metadata = {
   title: "ClearPixelImages | Professional Photo & Visual Editing Services",
   description:
-    "ClearPixelImages provides premium visual editing: Single Image, HDR, Day to Night, Twilight, Virtual Staging, Video Editing, Clipping Path, Item Removal, Wedding Photo Editing, and Aerial Drone enhancements.",
+    "ClearPixelImages provides premium visual editing: Single Image, HDR, Day to Night, Twilight, Virtual Staging, Video Editing, Item Removal, and Aerial Drone enhancements.",
   metadataBase: new URL("https://clearpixelimages.com"),
 };
 
